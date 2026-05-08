@@ -1,0 +1,174 @@
+﻿/*********************************************************************************************************************************************************************************************************************************************************************/
+/****************************************************************************************************************************** HEADER *******************************************************************************************************************************/
+#header
+{ width: 100%; height: 101px; float: left; margin-left: 0px; margin-top: 0px; background: grey; position: fixed; z-index: 998; box-shadow: 0px 3px 8px #b6b4b4; }
+#header-info-panel
+{ width: 100%; height: 60px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: #ffffff; position: relative; z-index: 999; border-bottom: 1px solid #f2f2f2; }
+#logo-dynal-desktop a
+{ width: 198px; height: 52px; float: left; margin-left: 20px; margin-top: 4px; background: url(../images/header/logo-dynal-desktop.png) no-repeat; }
+
+/** HEADER FLAG **/
+#header-flag-panel-bg
+{ width: 120px; height: 40px; float: right; margin-right: 10px; margin-top: 10px; padding: 0px; background: none; position: static; z-index: 999; }
+lang 
+{  height: 40px; float: left; margin-left: 0px; margin-top: 0px; padding: 0px; background: none; position: relative; z-index: 1000;  }
+lang ul 
+{ height: auto; padding: 0px; margin-top: 0px; background: none; list-style: none; }
+lang ul li 
+{}
+lang ul li a 
+{ width: 120px; height: 40px; line-height: 40px; float: left; margin-left: 0px;  margin-top: 0px!important; font-family: 'Open Sans', sans-serif; font-size: 0.86em; font-weight: 500; color: #333333; text-decoration: none; text-align: left; background: #f3f9fb; }
+lang ul li:hover 
+{ padding: 0px;  color: #c62c37; text-align: center; }
+lang ul li:hover > a
+{ color: #000000; text-decoration: none; background: #e0eff5; }
+lang ul li:hover > ul 
+{ display: block; }
+lang ul ul 
+{ background: #ffffff; padding: 0; text-align: center; display: none; width: 100%; position: absolute; top: 50px; left: 0px; }
+lang ul ul a
+{ font-size: 0.88em; border-style: none; }
+.header-flag-bottom-panel
+{ width: 100%; height: 120px; top: 40px; background: #f3f9fb;}
+
+.lang-flag-cz a
+{ width: 75px; height: 40px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding-left: 45px; background: #f3f9fb url(../images/header/flag-cz.png) no-repeat 10px; 
+  -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+.lang-flag-cz a:hover 
+{ width: 75px; height: 40px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding-left: 45px; background: #e0eff5 url(../images/header/flag-cz.png) no-repeat 10px; }
+.lang-flag-uk a
+{ width: 75px; height: 40px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding-left: 45px; background: #f3f9fb url(../images/header/flag-uk.png) no-repeat 10px;   
+  -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+.lang-flag-uk a:hover
+{ width: 75px; height: 40px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding-left: 45px; background: #e0eff5 url(../images/header/flag-uk.png) no-repeat 10px; }
+.lang-flag-de a
+{ width: 75px; height: 40px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding-left: 45px; background: #f3f9fb url(../images/header/flag-de.png) no-repeat 10px;   
+  -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+.lang-flag-de a:hover
+{ width: 75px; height: 40px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding-left: 45px; background: #e0eff5 url(../images/header/flag-de.png) no-repeat 10px; }
+.lang-flag-ru a
+{ width: 75px; height: 40px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding-left: 45px; background: #f3f9fb url(../images/header/flag-ru.png) no-repeat 10px;   
+  -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+.lang-flag-ru a:hover
+{ width: 75px; height: 40px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding-left: 45px; background: #e0eff5 url(../images/header/flag-ru.png) no-repeat 10px; }
+#logo-dynal-mobil a, .m-lang-flag-cz a, .m-lang-flag-uk a, .m-lang-flag-de a, .m-lang-flag-ru a, #m-header-phone a, #m-header-konfig a
+{ display: none; }
+
+/** HEADER CONTACT PANEL **/
+#header-phone a
+{ height: 40px; float: right; margin-right: 10px; margin-top: 10px; margin-bottom: 0px; padding-left: 37px; padding-right: 10px; font-family: 'Open Sans', sans-serif; font-size: 0.86em; font-weight: 500; color: #ffffff; text-align: left; text-decoration: none; 
+  text-transform: none; line-height: 40px; letter-spacing: 0.01em; background: #039b0e url(../images/header/header-phone.png) no-repeat 8px 10px; 
+  -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+#header-phone a:hover
+{ background: #01800a url(../images/header/header-phone.png) no-repeat 8px 10px; }
+#header-phone a:hover
+{ background: #01800a url(../images/header/header-phone.png) no-repeat 8px 10px; }
+#header-poptavka a
+{ height: 40px; float: right; margin-right: 10px; margin-top: 10px; margin-bottom: 0px; padding-left: 37px; padding-right: 10px; font-family: 'Open Sans', sans-serif; font-size: 0.86em; font-weight: 500; color: #ffffff; text-align: left; text-decoration: none; 
+  text-transform: none; line-height: 40px; letter-spacing: 0.01em; background: #c62c37 url(../images/header/header-poptavka.png) no-repeat 8px 10px; 
+  -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+#header-poptavka a:hover
+{ background: #8a171f url(../images/header/header-poptavka.png) no-repeat 8px 10px; }
+
+/** HEADER SOCIAL PANEL **/
+#header-social-panel
+{ width: 112px; height: 40px; float: right; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; background: #f3f9fb; position: relative; z-index: 999; }
+#header-social-facebook a 
+{ width: 24px; height: 24px; float: left; margin-left: 10px; margin-top: 8px; background: url(../images/header/header-facebook.png) no-repeat; }
+#header-social-youtube a 
+{ width: 24px; height: 24px; float: left; margin-left: 10px; margin-top: 8px; background: url(../images/header/header-youtube.png) no-repeat; }
+#header-social-instagram a 
+{ width: 24px; height: 24px; float: left; margin-left: 10px; margin-top: 8px; background: url(../images/header/header-instagram.png) no-repeat; }
+
+/* HEADER MENU */
+#menu
+{ width: 100%; height: 40px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: #ffffff; border-top: 1px solid #bebebe; position: relative; z-index: 997; }
+.menu-btn a 
+{ width: 14.28%; height: 40px; float: left; margin: 0px; padding: 0px; line-height: 40px; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 700; text-align: center; text-transform: uppercase; text-decoration: none; color: #333333; }
+.menu-btn a:hover 
+{ color: #c62c37; background: #f8f8f8; }
+
+.overlay
+{ display: none; }
+   
+/*********************************************************************************************************************************************************************************************************************************************************************/
+/************************************************************************************************************************** MOBILE HEADER ****************************************************************************************************************************/
+@media only screen and (max-width: 1400px)
+{
+   /** MENU - VELIKOST TEXTU **/
+   .menu-btn a 
+   { font-size: 12px; }
+}
+
+
+@media only screen and (max-width: 1200px)
+{
+   /** MENU - VELIKOST TEXTU **/
+   .menu-btn a 
+   { font-size: 10px; }
+}
+
+@media only screen and (max-width: 1000px)
+{
+   #header
+   { width: 100%; height: 50px; float: left; margin-left: 0px; margin-top: 0px; background: grey; position: fixed; z-index: 999; box-shadow: 0px 3px 8px #b6b4b4; }
+   #header-info-panel
+   { width: 100%; height: 50px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: #ffffff; border: none; }
+   #logo-dynal-mobil a
+   { width: 150px; height: 40px; float: left; margin-left: 5px; margin-top: 5px; background: url(../images/header/logo-dynal-mobil.png?v=1000) no-repeat; display: block; position: relative; }
+
+   /** HEADER FLAG **/
+   #header-flag-panel-bg
+   { width: 45px; height: 45px; float: right; margin-right: 5px; margin-top: 0px; padding: 0px; background: none; position: relative; z-index: 998; }
+   .m-lang-flag-cz a
+   { width: 45px; height: 45px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding: 0px; background: #f3f9fb url(../images/header/flag-cz.png) no-repeat center; display: block; position: relative; z-index: 998; }
+   .m-lang-flag-cz a:hover
+   { width: 45px; height: 45px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding: 0px; background: #e0eff5 url(../images/header/flag-cz.png) no-repeat center; }
+   .m-lang-flag-uk a
+   { width: 45px; height: 45px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding: 0px; background: #f3f9fb url(../images/header/flag-uk.png) no-repeat center; display: block; position: relative; z-index: 998;}
+   .m-lang-flag-uk a:hover
+   { width: 45px; height: 45px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding: 0px; background: #e0eff5 url(../images/header/flag-uk.png) no-repeat center; }
+   .m-lang-flag-de a
+   { width: 45px; height: 45px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding: 0px; background: #f3f9fb url(../images/header/flag-de.png) no-repeat center; display: block; position: relative; z-index: 998; }
+   .m-lang-flag-de a:hover
+   { width: 45px; height: 45px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding: 0px; background: #e0eff5 url(../images/header/flag-de.png) no-repeat center; }
+   .m-lang-flag-ru a
+   { width: 45px; height: 45px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding: 0px; background: #f3f9fb url(../images/header/flag-ru.png) no-repeat center; display: block; position: relative; z-index: 998;}
+   .m-lang-flag-ru a:hover
+   { width: 45px; height: 45px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding: 0px; background: #e0eff5 url(../images/header/flag-ru.png) no-repeat center; }
+
+   #logo-dynal-desktop, nav, #menu, .lang-flag-cz a, .lang-flag-uk a, .lang-flag-de a, .lang-flag-ru a, #header-phone a, #header-konfig a, #header-social-panel, #header-flag-panel-bg, #header-poptavka a
+   { display: none; }
+  
+   /** HEADER CONTACT PANEL **/
+   #m-header-phone a
+   { width: 50px; height: 50px; float: right; margin-right: 5px; margin-top: 0px; margin-bottom: 0px; padding: 0px; background: #039b0e url(../images/header/header-phone.png) no-repeat center; display: block; }
+   #m-header-phone a:hover
+   { background: #01800a url(../images/header/header-phone.png) no-repeat center; }
+
+   /** MOBILE MENU **/
+   #openMobileMenu
+   { width: 50px; height: 50px; float: right; margin-right: 0px; margin-top: 0px; padding: 0px; cursor: pointer; display: block; background: #1a0b6b url(../images/header/btn-menu.png?v=1000) no-repeat 0px 0px; }
+   #openNav
+   { width: 80px; height: 45px; right: 0px; top: 0px; padding-top: 25px; cursor: pointer; font-family: 'Open Sans', sans-serif; font-size: 1.0em; font-weight: 600; color: #000000; text-transform: none; text-align: center; background: #ffffff; display: block; position: absolute; }
+   .overlay 
+   { height: 0%; width: 100%; position: fixed; z-index: 1000; top: 0; left: 0; background: #233647; overflow-y: hidden; display: block; transition: 0.4s; }
+   .overlay-content 
+   { position: relative; top: 2%; width: 100%; text-align: left; margin-top: 0px; }
+   .overlay a 
+   { padding-top: 5px; padding-bottom: 5px; text-decoration: none; font-family: 'Open Sans', sans-serif; font-weight: 500; font-size: 1.0em; color: #ffffff; display: block; transition: 0.3s; }
+   .overlay a:hover, .overlay a:focus 
+   { color: #00aefe; }
+   .overlay .closebtn 
+   { position: absolute; top: 0px; right: 15px; font-size: 50px; }
+   
+   .overlay-odkaz-panel
+   { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 30px; background: none; }
+   .overlay-odkaz-panel a
+   { width: 100%; height: 25px; line-height: 25px; float: left; margin-left: 0px; margin-top: 0px; font-family: 'Open Sans', sans-serif; font-weight: 500; font-size: 0.90em; color: #ffffff; text-transform: uppercase; background: none; border-bottom: 1px solid #ffffff; }
+   .overlay-odkaz-panel a:hover
+   { color: #ffffff; border-bottom: 1px solid #00aefe; }   
+}
+
+
+

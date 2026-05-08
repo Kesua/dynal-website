@@ -1,0 +1,248 @@
+﻿@media only screen and (max-width: 1400px)
+{
+   /** SLIDER NAPIS **/
+   #slider-napis-box
+   { width: 460px; }
+   #slider-napis h1
+   { font-size: 3.50em; }
+   
+   /** BOX PRODUCT **/
+   .box-product-6-bg
+   { width: 33.33%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; background: none; }
+}
+
+@media only screen and (max-width: 1200px)
+{
+   /** FOOTER **/
+   .footer-box
+   { width: 33.33%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 10px; padding: 0px; background: none; }
+   
+   /** UZITECNE INFORMACE **/
+   .uzitecne-informace-box-bg
+   { width: 50%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; background: none; }
+}
+@media only screen and (max-width: 1100px)
+{ 
+   /** INDEX NABIDKA **/
+   .index-panel-box-pic-bg
+   { width: 50%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+   
+   /** BOX PRODUCT - MENSI SIRKA MEZI BOXY **/
+   .box-product
+   { margin: 10px 20px 10px 20px; }
+}
+
+@media only screen and (max-width: 1000px)
+{
+   /** DISPLAY NONE - MOBILE VERSION **/
+   #navi-panel, .cb-slideshow, #slider-napis-panel, #gallery-arrow-left, #gallery-arrow-right, #gallery-arrow-left-napis a, #gallery-arrow-right-napis a
+   { display: none; }
+   .index-banner-panel
+   { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 5px; margin-bottom: 5px; background: none; }
+   .index-banner-bg
+   { width: 100%; height: auto; float: left; margin: 0px; position: relative; background: none; }
+   
+   .slider-banner-box              
+   { width: 140px; height: auto; float: left; margin-left: 10px; margin-top: 60px; margin-bottom: 0px; padding: 0px; background: none; position: relative; z-index: 996; }
+   
+   /***** H1 *****/
+   #page-nazev h1
+   { text-align: center; }
+
+   /** PAGE **/
+   #index-page, #page
+   { margin-top: 50px; }
+   
+   /** INDEX NABIDKA **/
+   .index-nabidka-3-bg
+   { width: 50%; }
+   #index-nabidka-panel
+   { padding-top: 20px; padding-bottom: 20px; }
+   
+   /** INDEX VIDEO **/
+   .index-video-panel-half
+   { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+
+   /** BOX PRODUCT **/
+   .box-product-5-bg
+   { width: 25%; height: auto; float: left; margin-left: 0px; margin-top: 5px; margin-bottom: 5px; background: none; }
+   
+   /** NOT SEE BOX **/
+   .notsee-box-3-bg
+   { width: 50%; }
+   .notsee-box-8-bg
+   { width: 25%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 0px; background: none; }
+   /** GALLERY PRODUCT **/
+   .gallery-pic-box-3
+   { width: 50%; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; }
+
+   /** REFERENCE GALLERY **/
+   .reference-field
+   { width: 33.33%; }
+
+   /** SERVICE PANEL **/
+   .service-box-4
+   { width: 50%; }
+
+   /** ODRAZ **/
+   .odraz-40
+   { height: auto; margin-left: 10px; margin-right: 10px; margin-top: 0px; position: relative; background: none; }
+   
+   /** PARAPETY **/
+   .parapety-panel-img
+   { width: 60%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+   .parapety-panel-txt
+   { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+
+   /** KONTAKT POBOCKY **/
+   .pobocky-box
+   { margin: 10px 10px 10px 10px; }
+   .kontakt-gallery-box
+   { width: 50%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; background: none; }
+   
+   /** POPTAVKA **/
+   #poptavka-box-left
+   { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+   #poptavka-box-right
+   { width: 100%; height: auto; float: left; margin-left: -1px; margin-top: 0px; margin-bottom: 0px; background: none; border: none; }
+
+}
+
+@media only screen and (max-width: 750px)
+{
+   /** BOX PRODUCT **/
+   .box-product-5-bg, .box-product-6-bg
+   { width: 50%; }
+
+.index-banner-box
+{ width: 100%; height: auto; float: left; margin: 0px; padding-top: 15px; padding-bottom: 15px; position: relative; background: none; }
+
+   /** NABIDKA TOP PANEL **/
+   #nabidka-top-panel-pic
+   { width: 50%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+   #nabidka-top-panel-txt
+   { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 30px; margin-bottom: 0px; background: #ffffff; }
+
+   /** KONTAKTY **/
+   #kontakt-panel
+   { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 20px; background: none; border-left: none; border-top: none; border-bottom: none;}
+   .kontakt-box
+   { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 0px; padding-bottom: 20px; background: none; border-right: none; border-bottom: 1px solid #f2f2f2; }
+   .kontakt-box-pobocka
+   { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 0px; padding-bottom: 20px; background: none; border-right: none; border-bottom: 1px solid #f2f2f2; }
+   .barvy-vzor-box-bg
+   { width: 50%; height: auto; float: left; margin-left: 0px; margin-top: 15px; margin-bottom: 15px; padding: 0px; background: none; }
+   /** KONTAKT POBOCKY **/
+   .pobocky-boxBG
+   { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+}
+
+@media only screen and (max-width: 700px)
+{
+   /** INDEX MOBILE MENU **/
+   #index-mobile-menu-panel
+   { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: #f6f6f6; display: block; position: relative; }
+   .index-mobile-menu-btn a
+   { width: 100%; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 5px; padding-top: 15px; padding-bottom: 15px; font-family: 'Open Sans', sans-serif; font-size: 0.88em; font-weight: 600; color: #ffffff; text-decoration: none; text-align: center; text-transform: none; 
+     letter-spacing: 0.02em; background-image: linear-gradient(90deg, #006ca1 0%, #00aeff 100%); position: relative; display: block; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+   .index-mobile-menu-btn a:hover
+   { background-image: linear-gradient(90deg, #00aeff 0%, #006ca1 100%); }
+      
+   /**ALUPLAST KONFIG **/
+   #index-konfig-panel
+   { display: none; }
+   
+   .odraz-20
+   { height: auto; margin-left: 10px; margin-right: 10px; margin-top: 0px; position: relative; background: none; }
+   
+   /** BOX PRODUCT **/
+   .box-product-3-bg, .box-product-4-bg
+   { width: 50%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; background: none; }
+   /** BOX PRODUCT - MENSI SIRKA MEZI BOXY **/
+   .box-product
+   { margin: 5px 5px 5px 5px; }
+   
+   /** GALERIE BEZ NAHLEDU **/
+   .notsee-box-5-bg
+   { width: 25%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 0px; background: none; }
+   .notsee-box-8-bg
+   { width: 33.33%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 0px; background: none; }
+   
+   /** UZITECNE INFORMACE **/
+   .uzitecne-informace-box-bg
+   { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; background: none; }
+   
+   /** FOOTER **/
+   .footer-box
+   { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 10px; padding: 0px; background: none; }
+}
+
+@media only screen and (max-width: 600px) {
+/** BOX PRODUCT **/
+.box-product-2-bg, .box-product-5-bg
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; background: none; }
+   
+   /** NOT SEE BOX **/
+   .notsee-box-3-bg
+   { width: 100%; }
+   .notsee-box-8-bg
+   { width: 50%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 0px; background: none; }
+
+   /** INDEX NABIDKA **/
+   .index-panel-box-pic-bg
+   { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+   
+   /** REFERENCE GALLERY **/
+   .reference-field
+   { width: 100%; }
+
+   /** SERVICE PANEL **/
+   .service-box-4
+   { width: 100%; }
+
+   /** GALLERY PRODUCT **/
+   .gallery-pic-box-3
+   { width: 100%; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; }
+   .notsee-box-5-bg
+   { width: 50%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 0px; background: none; }
+
+   /** PRISLUSENSTVI **/
+   .prislusenstvi-panel-img
+   { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+   .prislusenstvi-panel-txt
+   { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+
+   /** POPTAVKA **/
+   .poptavka-nabidka-bg
+   { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 5px; margin-bottom: 5px; background: none; }
+   
+   /** KONTAKT GALLERY **/
+   .kontakt-gallery-box
+   { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; background: none; }
+   
+   /** GOOGLE MAPS **/
+   #google-maps-box
+{ width: 100%; height: auto; float: left; margin: 0px; padding: 0px; position: relative; background: none; }
+
+}
+
+@media only screen and (max-width: 500px)
+{
+   /** INDEX NABIDKA **/
+   .index-nabidka-3-bg
+   { width: 100%; }
+   
+   .barvy-vzor-box-bg
+   { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 15px; margin-bottom: 15px; padding: 0px; background: none; }
+   
+   /** NABIDKA TOP PANEL **/
+   #nabidka-top-panel-pic
+   { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+}
+
+@media only screen and (max-width: 450px) {
+/** BOX PRODUCT **/
+.box-product-3-bg, .box-product-4-bg, .box-product-6-bg
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; background: none; }
+
+}

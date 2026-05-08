@@ -1,0 +1,888 @@
+body 
+{ width: 100%; height: 100%; background: #ffffff; margin: 0px; padding: 0px; overflow-x: hidden; overflow-y: scroll; }  
+html
+{ height: 100%; }
+.wrapper
+{ min-width: 300px; max-width: 1280px; margin: 0px auto; padding: 0px; position: relative; background: none; }
+.wrapper-banner
+{ min-width: 300px; max-width: 1600px; margin: 0px auto; padding: 0px; position: relative; background: none; }
+/*********************************************************************************************************************************************************************************************************************************************************************/
+/****************************************************************************************************************************** SLIDER *******************************************************************************************************************************/
+#index-slider
+{ width: 100%; min-height: 100vh; float: left; margin: 0px; background: #ffffff; position: relative; display: block; }
+.crossfade > figure 
+{ animation: imageAnimation 30s linear infinite 0s; background-size: cover; background-position: center; color: transparent; min-height: 100vh; left: 0px; right: 0px; opacity: 0; position: fixed; top: 0px; width: 100%; z-index: 0; }
+.crossfade > figure:nth-child(1) 
+{ background-image: url('../images/slider/07.jpg'); float: left; margin: 0px; }
+.crossfade > figure:nth-child(2) 
+{ animation-delay: 6s; background-image: url('../images/slider/02.jpg'); float: left; margin: 0px; }
+.crossfade > figure:nth-child(3) 
+{ animation-delay: 12s; background-image: url('../images/slider/03.jpg'); float: left; margin: 0px; }
+.crossfade > figure:nth-child(4) 
+{ animation-delay: 18s; background-image: url('../images/slider/04.jpg'); float: left; margin: 0px; }
+.crossfade > figure:nth-child(5) 
+{ animation-delay: 24s; background-image: url('../images/slider/05.jpg'); float: left; margin: 0px; }
+@keyframes imageAnimation 
+{
+   0%   { animation-timing-function: ease-in;  opacity: 0; }
+   8%   { animation-timing-function: ease-out; opacity: 1; }
+   17%  { opacity: 1 }
+   25%  { opacity: 0 }
+   100% { opacity: 0 }
+}
+
+#mouse-scroll-panel
+{ width: 100%; height: 80px; float: left; margin-left: 0px; margin-top: -80px; margin-bottom: 0px; background-color: rgba(0, 0, 0, 0.8); position: relative; z-index: 996; }
+#mouse-scroll-container
+{ width: 40px; height: 40px; margin: 0 auto; top: 10px; position: relative; left: 0; right: 0; background: none; }
+#mouse-scroll-pic
+{ width: 40px; height: auto; float: left; margin-left: 0px; margin-top: 0px; background: none; position: absolute; }
+#end-video
+{ width: 5px; height: 5px; margin: 0 auto; position: absolute; bottom: 111px; left: 0; right: 0; z-index: 998; background: none; }
+
+.slider-banner-box              
+{ width: 180px; height: auto; float: left; margin-left: 20px; margin-top: 120px; margin-bottom: 0px; padding: 0px; background: none; position: relative; z-index: 996; }
+.slider-banner a
+{ width: 100%; height: auto; float: left; margin: 0px; padding: 0px; background: none; }
+
+/***** PAGE *********************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/********************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+#page
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding-bottom: 20px; background: #fdfdfd; position: relative; }
+#index-page
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding-bottom: 0px; background: #fdfdfd; position: relative; z-index: 997; }
+#page-konfigurator
+{ width: 100%; height: 500px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding-bottom: 0px; background: #fdfdfd; position: relative; }
+.page-line
+{ width: 100%; height: 1px; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 20px; background: none; box-shadow: 0px 3px 8px #b6b4b4; }
+.page-grey-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 20px; padding-top: 20px; padding-bottom: 20px; background: #f6f6f6; }
+
+#page-txt
+{ height: auto; margin-left: 20px; margin-right: 20px; margin-top: 0px; position: relative; background: none; }
+.odraz-5
+{ height: auto; margin-left: 5px; margin-right: 5px; margin-top: 0px; position: relative; background: none; }
+.odraz-10
+{ height: auto; margin-left: 10px; margin-right: 10px; margin-top: 0px; position: relative; background: none; }
+.odraz-15
+{ height: auto; margin-left: 15px; margin-right: 15px; margin-top: 0px; position: relative; background: none; }
+.odraz-20
+{ height: auto; margin-left: 20px; margin-right: 20px; margin-top: 0px; position: relative; background: none; }
+.odraz-30
+{ height: auto; margin-left: 30px; margin-right: 30px; margin-top: 0px; position: relative; background: none; }
+.odraz-40
+{ height: auto; margin-left: 40px; margin-right: 40px; margin-top: 0px; position: relative; background: none; }
+.odraz-100
+{ height: auto; margin-left: 100px; margin-right: 100px; margin-top: 0px; position: relative; background: none; }
+
+/***** H1 *****/
+#page-nazev h1
+{ width: 100%; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 10px; padding-top: 0px; font-family: 'Play', sans-serif; font-size: 1.80em; font-weight: 700; color: #2f2176; text-align: left; text-transform: none; text-decoration: none; line-height: 1.0em; background: none; }
+#page-nazev-center h1
+{ width: 100%; float: left; margin-left: 0px; margin-top: 25px; margin-bottom: 10px; padding-top: 0px; font-family: 'Play', sans-serif; font-size: 1.80em; font-weight: 700; color: #2f2176; text-align: center; text-transform: none; text-decoration: none; line-height: 1.0em; background: none; }
+/*************/
+
+.page-nazev-top h2, .page-popis p
+{ width: 100%; float: left; margin: 0px; padding-top: 5px; padding-bottom: 5px; font-family: 'Open Sans', sans-serif; font-size: 15px; font-weight: 500; color: #000000; text-align: left; text-transform: none; text-decoration: none; line-height: 160%; background: none; }
+.page-nazev-red h2
+{ width: 100%; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 0px; padding-top: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.96em; font-weight: 600; color: #b70a03; text-align: left; text-transform: uppercase; text-decoration: none; line-height: 1.40em; background: none; }
+.page-nazev-top-red
+{ color: #b70a03; font-weight: 600; font-size: 1.10em; }
+
+.page-index-nazev h2
+{ width: 100%; float: left; margin-left: 0px; margin-top: 100px; margin-bottom: 0px; font-family: 'Open Sans', sans-serif; font-size: 2.20em; font-weight: 700; color: #000000; text-align: center; text-transform: uppercase; text-decoration: none; background: none; }
+.page-popis-nazev p
+{ width: 100%; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.88em; font-weight: 600; color: #000000; text-align: left; text-transform: uppercase; text-decoration: none; line-height: 1.10em; background: none; }
+.page-popis p
+{ width: 100%; float: left; margin-left: 0px; margin-top: 5px; margin-bottom: 10px; font-family: 'Open Sans', sans-serif; font-size: 0.86em; font-weight: 500; color: #000000; text-align: left; text-transform: none; text-decoration: none; line-height: 1.20em; background: none; }
+
+.page-popis a
+{ color: #008dd0; text-decoration: underline; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+.page-popis a:hover 
+{ text-decoration: none; }
+
+.nazev-underline p
+{ width: 100%; float: left; margin-left: 0px; margin-top: 50px; margin-bottom: 0px; font-family: 'Play', sans-serif; font-size: 1.40em; font-weight: 600; color: #000000; text-align: center; text-transform: none; text-decoration: none; background: none; }
+.underline-panel
+{ width: 100%; height: 4px; float: left; margin-top: 10px; margin-bottom: 10px; background: none; }
+.underline
+{ width: 100px; height: 4px; margin: 0px auto; top: 0px; background: #c62c37; position: relative; -moz-border-radius: 2px 2px 2px 2px; -khtml-border-radius: 2px 2px 2px 2px; border-radius: 2px 2px 2px 2px; }
+
+.page-odstavec-top p
+{ width: 95%; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 3px; padding-left: 15px; font-family: 'Open Sans', sans-serif; font-size: 0.84em; font-weight: 500; color: #000000; text-align: left; text-transform: none; text-decoration: none; line-height: 1.50em; background: url(../images/bckg/odstavec.png) no-repeat 0px 7px; }
+.page-odstavec p
+{ width: 90%; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 3px; padding-left: 15px; font-family: 'Open Sans', sans-serif; font-size: 0.84em; font-weight: 500; color: #000000; text-align: left; text-transform: none; text-decoration: none; line-height: 1.50em; background: url(../images/bckg/odstavec.png) no-repeat 0px 7px; }
+
+/** PAGE RED BTN **/  
+.page-red-btn-panel
+{ width: 100%; height: 34px; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 20px; background: none; }
+.page-red-btn-bg
+{ width: 220px; height: 34px; margin: 0px auto; top: 0px; background: none; position: relative; }
+.page-red-btn a
+{ width: 220px; height: 34px; float: left; margin-left: 0px; margin-top: 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.86em; font-weight: 600; color: #ffffff; text-decoration: none; text-align: center; text-transform: uppercase; 
+  letter-spacing: 0.02em; line-height: 34px; background: #c62c37; position: relative; display: block; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+.page-red-btn a:hover
+{ background: #8a171f; }
+
+#zahrady-odkaz a
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 2px; padding-top: 20px; padding-bottom: 20px; font-family: 'Open Sans', sans-serif; font-size: 0.90em; font-weight: 600; color: #ffffff; text-align: center; 
+  text-decoration: none; text-transform: uppercase; letter-spacing: 0.01em; background: #c62c37; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+#zahrady-odkaz a:hover
+{ background: #8a171f; }
+
+/*********************************************************************************************************************************************************************************************************************************************************************/
+/*************************************************************************************************************************** NAVIGATION ******************************************************************************************************************************/
+#navi-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 101px; margin-bottom: 0px; background-image: linear-gradient(90deg, #006ca1 0%, #00aeff 100%); }
+#navi
+{ width: 100%; height: 35px; float: left; margin-left: 0px; margin-top: 5px; margin-bottom: 5px; background: none; }
+.navi-step-home a
+{ width: 35px; height: 35px; float: left; margin-left: 0px; margin-top: 0px; padding: 0px; background: url(../images/bckg/navi-home.png) no-repeat center; }
+.navi-step-home a:hover
+{ background: url(../images/bckg/navi-home-a.png) no-repeat center; }
+.navi-step a
+{ height: 35px; float: left; margin-left: 0px; margin-top: 0px; padding-left: 13px; padding-right: 13px; font-family: 'Open Sans', sans-serif; font-size: 0.82em; font-weight: 500; color: #a8e3ff; text-decoration: underline; text-align: center; 
+  letter-spacing: 0.02em; line-height: 35px; background: none; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+.navi-step a:hover
+{ color: #ffffff; }
+.navi-jump
+{ width: 8px; height: 35px; float: left; margin: 0px; padding: 0px; background: url(../images/bckg/navi-jump.png) no-repeat 0px 2px; }
+.navi-step-last p
+{ height: 35px; float: left; margin-left: 0px; margin-top: 0px; padding-left: 13px; font-family: 'Open Sans', sans-serif; font-size: 0.82em; font-weight: 500; color: #ffffff; text-decoration: none; text-align: center; letter-spacing: 0.02em; line-height: 35px; 
+  background: none; position: relative; display: block; }
+
+/*********************************************************************************************************************************************************************************************************************************************************************/
+/*************************************************************************************************************************  INDEX PAGE *******************************************************************************************************************************/
+
+/** VIDEO PANEL **/
+.video-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 30px; margin-bottom: 30px; padding: 0px; background: none; }
+.video-panel-wrapper
+{ min-width: 300px; max-width: 100%; margin: 0px auto; padding: 0px; position: relative; background: none; }
+.video 
+{ position: relative; padding-bottom: 55%; padding-top: 15px; height: 0; overflow: hidden; }
+.video iframe, .video object, .video embed 
+{ position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #ffffff; }
+
+/** AKCE BANNER **/
+.index-banner-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 20px; background: none; position: relative; z-index: 998; }
+.index-banner-box
+{ width: 50%; height: auto; float: left; margin: 0px; padding: 0px; position: relative; background: none; }
+.index-banner 
+{ width: 100%; height: auto; float: left; margin: 0px; padding: 0px; background: none; }
+
+/** INDEX NABIDKA **/
+.index-nabidka-wrapper
+{ min-width: 300px; max-width: 1500px; margin: 0px auto; padding: 0px; position: relative; background: none; }
+.index-nabidka-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 70px; background: #f2f2f2 url(../images/bckg/index-nabidka-bg.png) repeat; }
+.index-nabidka-3-bg
+{ width: 33.33%; height: auto; float: left; margin-left: 0px; margin-top: 5px; margin-bottom: 5px; background: none; }
+.index-nabidka
+{ margin: 10px 10px 10px 10px; background: #4b4b4b; position: relative; display: block; overflow: hidden; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+.index-nabidka h2 a
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 3px; margin-bottom: 8px; padding-top: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.60em; font-weight: 500; color: #ffffff; text-transform: none; text-align: center;
+  text-decoration: none; line-height: 1.30em; letter-spacing: 0.02em; background: none; }
+.indexnabidka--picture
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+.indexnabidka--odkaz:before 
+{ content: ""; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background: none; }
+.index-nabidka:hover 
+{ background: #252525; }
+
+/** INDEX VIDEO PANEL **/
+#index-video-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 50px; margin-bottom: 0px; background: none; border-top: 2px solid #00aeff; }
+.index-video-panel-half
+{ width: 50%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+.index-video-panel-popis p
+{ width: 100%; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.92em; font-weight: 500; color: #000000; text-align: center; text-decoration: none; text-transform: none; 
+  line-height: 1.30em; position: relative; }
+
+/**ALUPLAST KONFIG **/
+#index-konfig-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding-top: 40px; padding-bottom: 40px; background: #233647; }
+.index-konfig-panel-half
+{ width: 50%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+.index-konfig-panel-pic
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+#index-konfig-napis h2
+{ width: 100%; float: left; margin-left: 0px; margin-top: 40px; margin-bottom: 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 1.20em; font-weight: 600; color: #ffffff; text-align: center; text-decoration: none; text-transform: none; 
+  line-height: 1.0em; }
+#index-konfig-popis p
+{ width: 100%; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 30px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.92em; font-weight: 500; color: #ffffff; text-align: center; text-decoration: none; text-transform: none; 
+  line-height: 1.50em; }
+
+/** KONFIG PAGE **/
+#konfig-header
+{ width: 100%; height: 60px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: #ffffff; position: fixed; z-index: 1000; }
+#konfig-logo a
+{ width: 198px; height: 52px; float: left; margin-left: 10px; margin-top: 4px; background: url(../images/header/logo-dynal-desktop.png) no-repeat; }
+.aluplast-konfig
+{ width: 100%; height: 1000px; float: left; margin-left: 0px; margin-top: -22px; position: relative; z-index: 900;  }
+
+
+/*********************************************************************************************************************************************************************************************************************************************************************/
+/***************************************************************************************************************************** NABIDKA *******************************************************************************************************************************/
+#nabidka-top-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 20px; background: none; }
+#nabidka-top-panel-pic
+{ width: 40%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+#nabidka-top-pic
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+#nabidka-top-panel-txt
+{ width: 60%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: #fdfdfd; }
+#nabidka-top-panel-napis h2
+{ width: 100%; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 0px; font-family: 'Open Sans', sans-serif; font-size: 1.50em; font-weight: 600; color: #222222; text-align: center; text-transform: none; text-decoration: none;  
+  line-height: 1.0em; letter-spacing: 0.02em; background: none; }
+#nabidka-top-panel-popis p
+{ width: 100%; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 20px; font-family: 'Open Sans', sans-serif; font-size: 0.96em; font-weight: 600; color: #222222; text-align: left; text-transform: none; text-decoration: none;  
+  line-height: 1.640em; letter-spacing: 0.02em; background: none; }
+
+/*********************************************************************************************************************************************************************************************************************************************************************/
+/****************************************************************************************************************************  BOXES *********************************************************************************************************************************/
+/** S NAHLEDEM **/
+#box-product-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 10px; background: none; }
+.box-product-2-bg
+{ width: 50%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; background: none; }
+.box-product-3-bg
+{ width: 33.33%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; background: none; }
+.box-product-4-bg
+{ width: 25%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; background: none; }
+.box-product-5-bg
+{ width: 20%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; background: none; }
+.box-product-6-bg
+{ width: 16.66%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; background: none; }
+
+.box-product
+{ margin: 10px 10px 10px 10px; background: #006ca1; position: relative; display: block; overflow: hidden; -moz-border-radius: 0px 0px 10px 10px; -khtml-border-radius: 0px 0px 10px 10px; border-radius: 0px 0px 10px 10px; 
+  -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+.box-product h2 a
+{ width: 100%; height: auto; float: left; margin: 0px; padding-top: 7px; padding-bottom: 7px; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 600; color: #ffffff; text-transform: none; text-align: center; text-decoration: none; line-height: 150%; letter-spacing: 0.02em; background: none; }
+.boxproduct--picture
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: #f1fafe; }
+.boxproduct--odkaz:before 
+{ content: ""; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background: none; }
+.box-product:hover, .box-product-3:hover 
+{ background: #00aefe; }
+
+/** BEZ NAHLEDU **/
+.notsee-box-506-bg
+{ width: 506px; height: auto; margin: 0px auto; top: 20px; background: none; }
+.notsee-box-3-bg
+{ width: 33.33%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 0px; background: none; }
+.notsee-box-5-bg
+{ width: 20%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 0px; background: none; }
+.notsee-box-8-bg
+{ width: 12.5%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 0px; background: none; }
+.notsee-box-10-bg
+{ width: 10%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 0px; background: none; }
+
+.notsee-box
+{ margin: 10px 10px 10px 10px; background: #f0f0f0; position: relative; display: block; overflow: hidden; -moz-border-radius: 0px 0px 10px 10px; -khtml-border-radius: 0px 0px 10px 10px; border-radius: 0px 0px 10px 10px; }
+.notsee-box-picture, .notsee-box-picture-gallery
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; -webkit-transition: 0.8s ease; transition: 0.8s ease; }
+.notsee-box-napis h2
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 5px; margin-bottom: 8px; padding: 0px 0px 0px 0px; font-family: 'Open Sans', sans-serif; font-size: 0.86em; font-weight: 600; color: #222222; text-transform: none; text-align: center;
+  text-decoration: none; line-height: 1.20em; letter-spacing: 0.02em; background: none; }
+.notsee-box-picture-gallery:hover 
+{ -webkit-transform: scale(1.2)!important; transform: scale(1.2); }
+
+/** ENERGETO BOX **/
+#energeto-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 30px; margin-bottom: 30px; background: none; }
+.energeto-box
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; background: #f4f4f4; }
+.energeto-box-pic-1
+{ width: 136px; height: 136px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: url(../images/produkty/plastove-okenni-systemy/energeto/energeto-bonding-inside.jpg) no-repeat; }
+.energeto-box-pic-2
+{ width: 136px; height: 136px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: url(../images/produkty/plastove-okenni-systemy/energeto/energeto-powerdur-inside.jpg) no-repeat; }
+.energeto-box-pic-3
+{ width: 136px; height: 136px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: url(../images/produkty/plastove-okenni-systemy/energeto/energeto-foam-inside.jpg) no-repeat; }
+.energeto-odraz
+{ height: auto; margin-left: 156px; margin-right: 20px; margin-top: 0px; position: relative; background: none; }
+.energeto-napis p
+{ width: 100%; float: left; margin-left: 0px; margin-top: 20px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.96em; font-weight: 600; color: #c62c37; text-transform: uppercase; text-align: center; text-decoration: none; 
+  line-height: 1.20em; letter-spacing: 0.01em; word-spacing: 0.02em; background: none; }
+.energeto-popis p
+{ width: 100%; float: left; margin-left: 0px; margin-top: 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.90em; font-weight: 400; color: #222222; text-transform: none; text-align: center; text-decoration: none; 
+  line-height: 1.20em; letter-spacing: 0.02em; word-spacing: 0.02em; background: none; }
+ 
+/*********************************************************************************************************************************************************************************************************************************************************************/
+/************************************************************************************************************************  DOWNLOAD PANEL ****************************************************************************************************************************/
+.box-download a
+{ width: 80%; height: 35px; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; padding-left: 80px; font-family: 'Open Sans', sans-serif; font-size: 0.80em; font-weight: 600; color: #222222; text-transform: none; text-align: left; text-decoration: none; line-height: 35px; 
+  background: #f2f2f2 url(../images/bckg/download-pdf.png) no-repeat 0px 0px; position: relative; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+.box-download a:hover
+{ background: #000000 url(../images/bckg/download-pdf.png) no-repeat 0px 0px; color: #ffffff; }
+
+
+/*********************************************************************************************************************************************************************************************************************************************************************/
+/************************************************************************************************************************** SERVICE PANEL ****************************************************************************************************************************/
+#service-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 30px; padding-top: 5px; padding-bottom: 5px; margin-bottom: 0px; background: #f6f6f6; }
+.service-box-4
+{ width: 25%; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; }
+.service-box
+{ margin: 10px 10px 10px 10px; background-image: linear-gradient(90deg, #006ca1 0%, #008fd3 100%); position: relative; display: block; overflow: hidden; }
+#service-box-pic-ral
+{ width: 40px; height: 40px; float: left; margin-left: 10px; margin-top: 5px; margin-bottom: 5px; background: url(../images/bckg/service-box-ral.png) no-repeat; }
+#service-box-pic-bulb
+{ width: 40px; height: 40px; float: left; margin-left: 10px; margin-top: 5px; margin-bottom: 5px; background: url(../images/bckg/service-box-bulb.png) no-repeat; }
+#service-box-pic-poptavka
+{ width: 40px; height: 40px; float: left; margin-left: 10px; margin-top: 5px; margin-bottom: 5px; background: url(../images/bckg/service-box-poptavka.png) no-repeat; }
+#service-box-pic-map
+{ width: 40px; height: 40px; float: left; margin-left: 10px; margin-top: 5px; margin-bottom: 5px; background: url(../images/bckg/service-box-map.png) no-repeat; }
+.service-odraz
+{ height: auto; margin-left: 50px; margin-right: 5px; margin-top: 0px; position: relative; background: none; }
+.service-napis a
+{ width: 100%; height: 50px; float: left; margin-left: 0px; margin-top: 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.88em; font-weight: 600; color: #ffffff; text-transform: uppercase; text-align: center; text-decoration: none; 
+  line-height: 50px; letter-spacing: 0.01em; word-spacing: 0.02em; background: none; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+.service-napis a:hover
+{ text-decoration: underline; }
+
+/** STRESNI OKNA **/
+#service-panel-stresni-okno
+{ width: 100%; height: 50px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 20px; background: #0074ac; }
+#service-panel-photo a
+{ float: left; margin-left: 0px; padding-left: 50px; padding-right: 15px; font-family: 'Open Sans', sans-serif; font-size: 0.96em; font-weight: 400; color: #ffffff; text-align: left; text-decoration: none; text-transform: none; 
+  line-height: 50px; background: url(../images/bckg/photo.png) no-repeat 10px 12px; border-right: 1px solid #009ee8; 
+  -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+#service-panel-photo a:hover 
+{ background: #025279 url(../images/bckg/photo.png) no-repeat 10px 12px; }
+
+/*********************************************************************************************************************************************************************************************************************************************************************/
+/****************************************************************************************************************************  GALLERY *******************************************************************************************************************************/
+#gallery-page
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 50px; margin-bottom: 0px; padding-bottom: 0px; background: #fdfdfd; position: relative; z-index: 999; }
+#gallery-navi-panel
+{ width: 100%; height: 50px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 50px; background: #25202c; position: fixed; z-index: 1000; box-shadow: 0px 3px 8px #b6b4b4; }
+.gallery-navi-panel-half
+{ width: 50%; height: 50px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+#gallery-arrow-left
+{ width: 24px; height: 50px; float: left; margin-left: 20px; margin-top: 0px; margin-bottom: 0px; background: url(../images/bckg/gallery-arrow-left.png) no-repeat; }
+#gallery-arrow-right
+{ width: 24px; height: 50px; float: right; margin-right: 20px; margin-top: 0px; margin-bottom: 0px; background: url(../images/bckg/gallery-arrow-right.png) no-repeat; }
+#gallery-arrow-left-napis a
+{ float: left; margin-left: 10px; margin-top: 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.96em; font-weight: 400; color: #ffffff; text-align: left; text-decoration: none; text-transform: none; line-height: 50px; background: none; }
+#gallery-arrow-right-napis a
+{ float: right; margin-right: 10px; margin-top: 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.96em; font-weight: 400; color: #ffffff; text-align: right; text-decoration: none; text-transform: none; line-height: 50px; background: none; }
+#gallery-arrow-left-napis a:hover, #gallery-arrow-right-napis a:hover
+{ text-decoration: underline; } 
+#gallery-back a
+{ width: 100px; height: 50px; float: left; margin-left: -50px; margin-top: 0px; margin-bottom: 0px; background: url(../images/bckg/gallery-arrow-back.png) no-repeat center; position: relative; }
+
+.gallery-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 5px; margin-bottom: 5px; background: none; }
+.gallery-pic-box-3
+{ width: 33.33%; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; }
+.gallery-pic-box-4
+{ width: 25%; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; }
+.gallery-pic-box
+{ margin: 10px 10px 10px 10px; background: #ffffff; position: relative; display: block; overflow: hidden; }
+.gallery-pic
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; -webkit-transition: 0.6s ease; transition: 0.6s ease; }
+.gallery-pic:hover, .gallery-field-pic:hover 
+{ -webkit-transform: scale(1.3)!important; transform: scale(1.3); }
+
+/** REFERENCE **/
+#reference-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 20px; margin-bottom: 0px; padding: 0px; background: #f8f8f8; }
+.reference-field
+{ width: 20%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; background: none; }
+.reference-field-box
+{ margin: 10px 10px 10px 10px; background: #ffffff; position: relative; display: block; overflow: hidden; }
+.reference-field-pic
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; -webkit-transition: 0.6s ease; transition: 0.6s ease; }
+
+/** BAREVNE PROVEDENI **/
+.barvy-vzor-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 20px; padding: 0px; background: none; }
+.barvy-vzor-box-bg
+{ width: 25%; height: auto; float: left; margin-left: 0px; margin-top: 15px; margin-bottom: 15px; padding: 0px; background: none; }
+.barvy-vzor-box
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding: 0px; background: #f6f6f6; }
+.barvy-vzor-napis p
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 5px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.90em; font-weight: 600; color: #000000; text-align: center; text-decoration: none; text-transform: none; line-height: 1.60em; background: none; }
+
+
+
+
+
+
+
+/*********************************************************************************************************************************************************************************************************************************************************************/
+/************************************************************************************************************************* PRODUCT TABLE *****************************************************************************************************************************/
+.product-tbl
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 20px; background: none; overflow-x: auto;  overflow-y: hidden;}
+
+/** TBL HEAD **/
+.tbl-nazev
+{ width: 1160px; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: #006ca1; }
+.tbl-nazev-napis p
+{ width: 100%; float: left; margin-left: 0px; margin-top: 15px; margin-bottom: 15px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.90em; font-weight: 600; color: #ffffff; text-transform: uppercase; text-align: center; text-decoration: none; 
+  line-height: 1.0em; letter-spacing: 0.01em; word-spacing: 0.02em; background: none; }
+
+.tbl-head-napis-bg
+{ width: 1160px; height: 40px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; vertical-align: middle; background: #f3f9fb; }
+.tbl-head-popis-bg
+{ width: 1160px; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: #ffffff; }
+
+.tbl-head-napis-2 p
+{ width: 580px; height: 30px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.74em; font-weight: 600; color: #222222; text-transform: uppercase; 
+  text-align: center; vertical-align: middle; text-decoration: none; line-height: 40px; letter-spacing: 0.01em; word-spacing: 0.01em; background: #f3f9fb; }
+.tbl-head-napis-3 p
+{ width: 386.6px; height: 30px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.74em; font-weight: 600; color: #222222; text-transform: uppercase; 
+  text-align: center; vertical-align: middle; text-decoration: none; line-height: 40px; letter-spacing: 0.01em; word-spacing: 0.01em; background: #f3f9fb; }
+.tbl-head-napis-5 p
+{ width: 232px; height: 30px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.74em; font-weight: 600; color: #222222; text-transform: uppercase; 
+  text-align: center; vertical-align: middle; text-decoration: none; line-height: 40px; letter-spacing: 0.01em; word-spacing: 0.01em; background: #f3f9fb; }
+.tbl-head-napis-6 p
+{ width: 193.3px; height: 30px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.74em; font-weight: 600; color: #222222; text-transform: uppercase; 
+  text-align: center; vertical-align: middle; text-decoration: none; line-height: 40px; letter-spacing: 0.01em; word-spacing: 0.01em; background: #f3f9fb; }
+.tbl-head-napis-7 p
+{ width: 165px; height: 30px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.74em; font-weight: 600; color: #222222; text-transform: uppercase; 
+  text-align: center; vertical-align: middle; text-decoration: none; line-height: 40px; letter-spacing: 0.01em; word-spacing: 0.01em; background: #f3f9fb; }
+
+.tbl-head-popis-2 p
+{ width: 580px; height: 25px; float: left; margin-left: -1px; margin-top: 0px; margin-bottom: 0px; padding-top: 10px; padding-bottom: 5px; font-family: 'Open Sans', sans-serif; font-size: 0.72em; font-weight: 400; color: #222222; text-transform: none; 
+  text-align: center; text-decoration: none; line-height: 1.10em; letter-spacing: 0.01em; word-spacing: 0.01em; background: #ffffff; border-left: 1px solid #f3f9fb; border-bottom: 1px solid #f3f9fb; }
+.tbl-head-popis-3 p
+{ width: 386.6px; height: 25px; float: left; margin-left: -1px; margin-top: 0px; margin-bottom: 0px; padding-top: 10px; padding-bottom: 5px; font-family: 'Open Sans', sans-serif; font-size: 0.72em; font-weight: 400; color: #222222; text-transform: none; 
+  text-align: center; text-decoration: none; line-height: 1.10em; letter-spacing: 0.01em; word-spacing: 0.01em; background: #ffffff; border-left: 1px solid #f3f9fb; border-bottom: 1px solid #f3f9fb; }
+.tbl-head-popis-5 p
+{ width: 232px; height: 25px; float: left; margin-left: -1px; margin-top: 0px; margin-bottom: 0px; padding-top: 10px; padding-bottom: 5px; font-family: 'Open Sans', sans-serif; font-size: 0.72em; font-weight: 400; color: #222222; text-transform: none; 
+  text-align: center; text-decoration: none; line-height: 1.10em; letter-spacing: 0.01em; word-spacing: 0.01em; background: #ffffff; border-left: 1px solid #f3f9fb; border-bottom: 1px solid #f3f9fb; }
+.tbl-head-popis-6 p
+{ width: 193.3px; height: 25px; float: left; margin-left: -1px; margin-top: 0px; margin-bottom: 0px; padding-top: 10px; padding-bottom: 5px; font-family: 'Open Sans', sans-serif; font-size: 0.72em; font-weight: 400; color: #222222; text-transform: none; 
+  text-align: center; text-decoration: none; line-height: 1.10em; letter-spacing: 0.01em; word-spacing: 0.01em; background: #ffffff; border-left: 1px solid #f3f9fb; border-bottom: 1px solid #f3f9fb; }
+.tbl-head-popis-7 p
+{ width: 165px; height: 25px; float: left; margin-left: -1px; margin-top: 0px; margin-bottom: 0px; padding-top: 10px; padding-bottom: 5px; font-family: 'Open Sans', sans-serif; font-size: 0.72em; font-weight: 400; color: #222222; text-transform: none; 
+  text-align: center; text-decoration: none; line-height: 1.10em; letter-spacing: 0.01em; word-spacing: 0.01em; background: #ffffff; border-left: 1px solid #f3f9fb; border-bottom: 1px solid #f3f9fb; }
+
+/*********************************************************************************************************************************************************************************************************************************************************************/
+/************************************************************************************************************************** PRISLUSENSTVI ****************************************************************************************************************************/
+.prislusenstvi-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 30px; margin-bottom: 60px; background: none; border-top: 1px solid #f2f2f2; }
+.prislusenstvi-panel-img
+{ width: 40%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+.prislusenstvi-panel-txt
+{ width: 60%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+.prislusenstvi-panel-nazev h2
+{ width: 100%; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 10px; padding-top: 0px; font-family: 'Play', sans-serif; font-size: 1.50em; font-weight: 700; color: #2f2176; text-align: center; text-transform: none; 
+  text-decoration: none; line-height: 1.0em; background: none; }
+
+/*********************************************************************************************************************************************************************************************************************************************************************/
+/************************************************************************************************************************* STINICI TECHNIKA **************************************************************************************************************************/
+#box-st-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 10px; background: none; }
+.box-st-2-bg
+{ width: 50%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 20px; background: none; }
+.box-st-3-bg
+{ width: 33.33%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 20px; background: none; }
+.box-st-4-bg
+{ width: 25%; height: auto; float: left; margin-left: 0px; margin-top: 15px; margin-bottom: 15px; background: none; }
+.box-st-5-bg
+{ width: 20%; height: auto; float: left; margin-left: 0px; margin-top: 15px; margin-bottom: 15px; background: none; }
+
+.box-st
+{ margin: 20px 20px 20px 20px; background: #ffffff; position: relative; display: block; overflow: hidden; -moz-border-radius: 0px 0px 10px 10px; -khtml-border-radius: 0px 0px 10px 10px; border-radius: 0px 0px 10px 10px; 
+  -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+.box-st h2 a
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 0px; padding-top: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.60em; font-weight: 500; color: #222222; text-transform: uppercase; text-align: center;
+  text-decoration: none; line-height: 1.30em; letter-spacing: 0.02em; background: none; }
+.box-st-popis-1 p
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 5px; margin-bottom: 5px; padding-top: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.86em; font-weight: 500; color: #222222; text-transform: uppercase; text-align: center;
+  text-decoration: none; line-height: 1.30em; letter-spacing: 0.02em; background: none; }
+.box-st-popis-2 p
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 5px; margin-bottom: 5px; padding-top: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.82em; font-weight: 400; color: #565859; text-transform: none; text-align: center;
+  text-decoration: none; line-height: 1.50em; letter-spacing: 0.02em; background: none; }
+
+.boxst--picture
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+.boxst--odkaz:before 
+{ content: ""; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background: none; }
+.box-st:hover 
+{ background: #f9f9f9; }
+
+/*********************************************************************************************************************************************************************************************************************************************************************/
+/************************************************************************************************************************* STRESNI OKNA ******************************************************************************************************************************/
+.stresni-okno-wrapper
+{ min-width: 300px; max-width: 984px; margin: 0px auto; padding: 0px; position: relative; background: none; }
+#stresni-okno-top
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 0px; background: none; }
+
+/** ZASKLENI **/
+.zaskleni-box
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 20px; background: none; border-top: 1px solid #4f4f4f; }
+.zaskleni-box-pic
+{ width: 102px; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+.zaskleni-box-txt
+{ height: auto; margin-left: 122px; margin-right: 20px; margin-top: 0px; position: relative; background: none; }
+.zaskleni-box-napis p
+{ width: 100%; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 5px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 1.0em; font-weight: 600; color: #000000; text-align: left; text-decoration: none; text-transform: none; 
+  line-height: 1.0em; }
+.zaskleni-box-popis p
+{ width: 100%; float: left; margin-left: 0px; margin-top: 2px; margin-bottom: 2px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.84em; font-weight: 500; color: #000000; text-align: left; text-decoration: none; text-transform: none; 
+  line-height: 1.0em; }
+
+/** FUNKCNOST **/
+#funkcnost-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 20px; background: none; }
+.funkcnost-box-2
+{ width: 50%; height: auto; float: left; margin-left: 0px; margin-top: 0px; background: none; }
+.funkcnost-box-3
+{ width: 33.33%; height: auto; float: left; margin-left: 0px; margin-top: 0px; background: none; }
+.funkcnost-box-pic-pohyb
+{ width: 102px; height: 102px; margin: 0px auto; top: 0px; background: url(../images/produkty/stresni-okna/funkcnost/pohyb.jpg) no-repeat; }
+.funkcnost-box-pic-vetrani
+{ width: 102px; height: 102px; margin: 0px auto; top: 0px; background: url(../images/produkty/stresni-okna/funkcnost/vetrani.jpg) no-repeat; }
+.funkcnost-box-pic-udrzba
+{ width: 102px; height: 102px; margin: 0px auto; top: 0px; background: url(../images/produkty/stresni-okna/funkcnost/udrzba.jpg) no-repeat; }
+.funkcnost-box-napis p
+{ width: 100%; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 5px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 1.0em; font-weight: 600; color: #000000; text-align: center; text-decoration: none; text-transform: none; 
+  line-height: 1.0em; }
+.funkcnost-box-popis p
+{ width: 100%; float: left; margin-left: 0px; margin-top: 3px; margin-bottom: 15px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.84em; font-weight: 500; color: #000000; text-align: center; text-decoration: none; text-transform: none; 
+  line-height: 1.0em; }
+
+/** VIDEO **/
+#stresni-okno-video-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 20px; background: none; }
+
+/*********************************************************************************************************************************************************************************************************************************************************************/
+/*************************************************************************************************************************** PARAPETY ********************************************************************************************************************************/
+.parapety-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 15px; margin-bottom: 15px; background: none; }
+.parapety-panel-img
+{ width: 40%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+.parapety-panel-txt
+{ width: 60%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+.parapety-panel-nazev h2
+{ width: 100%; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; padding-top: 0px; font-family: 'Play', sans-serif; font-size: 1.50em; font-weight: 700; color: #2f2176; text-align: center; text-transform: none; 
+  text-decoration: none; line-height: 1.0em; background: none; }
+
+/***** UZITECNE INFORMACE *******************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/********************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+#uzitecne-informace-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 20px; background: none; }
+.uzitecne-informace-box-bg
+{ width: 25%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; background: none; }
+.uzitecne-informace-box
+{ margin: 10px 10px 10px 10px; background: none; position: relative; display: block; overflow: hidden; }
+.uzitecne-informace-box-rada a
+{ width: 100%; height: 60px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.94em; font-weight: 600; color: #222222; text-transform: none; text-align: center; text-decoration: none; line-height: 60px; letter-spacing: 0.02em; 
+  background: url(../images/bckg/ico-rada.png) no-repeat 14px 14px; border-bottom: 2px solid #0078b1; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+.uzitecne-informace-box-zaruka a
+{ width: 100%; height: 60px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.94em; font-weight: 600; color: #222222; text-transform: none; text-align: center; text-decoration: none; line-height: 60px; letter-spacing: 0.02em; 
+  background: url(../images/bckg/ico-zaruka.png) no-repeat 14px 14px; border-bottom: 2px solid #0078b1; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+.uzitecne-informace-box-certifikat a
+{ width: 100%; height: 60px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.94em; font-weight: 600; color: #222222; text-transform: none; text-align: center; text-decoration: none; line-height: 60px; letter-spacing: 0.02em; 
+  background: url(../images/bckg/ico-certifikat.png) no-repeat 14px 14px; border-bottom: 2px solid #0078b1; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+.uzitecne-informace-box-informace a
+{ width: 100%; height: 60px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.94em; font-weight: 600; color: #222222; text-transform: none; text-align: center; text-decoration: none; line-height: 60px; letter-spacing: 0.02em; 
+  background: url(../images/bckg/ico-naradi.png) no-repeat 14px 14px; border-bottom: 2px solid #0078b1; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+
+
+
+
+.uzitecne-informace-box-rada a:hover, .uzitecne-informace-box-zaruka a:hover, .uzitecne-informace-box-certifikat a:hover, .uzitecne-informace-box-informace a:hover
+{ border-bottom: 2px solid #c62c37; }
+
+
+
+/*********************************************************************************************************************************************************************************************************************************************************************/
+/*************************************************************************************************************************** POPTÁVKY ********************************************************************************************************************************/
+.poptavka-popis p
+{ width: 100%; float: left; margin-left: 0px; margin-top: 30px; margin-bottom: 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.90em; font-weight: 400; color: #464646; text-transform: none; 
+  text-decoration: none; text-align: justify; line-height: 1.30em; letter-spacing: 0.02em; background: none; }
+
+#form-bg
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 20px; background: #def2fb; position: relative; }
+.form-box-half
+{ width: 50%; height: auto; float: left; margin: 0px; padding: 0px; background: none; }
+.clear                      
+{ clear: both; }
+input
+{ width: 100%; height: 30px; float: left; margin-left: 0px; margin-top: 5px; padding-left: 5px; font-family: 'Open Sans', sans-serif; font-size: 0.98em; font-weight: 500; color: #000000; background: #ffffff; border-style: none; position: relative; 
+  border-top: 1px solid #c6c6c6; }
+input.required
+{ width: 100%; height: 30px; float: left; margin-left: 0px; margin-top: 5px; padding-left: 5px; font-family: 'Open Sans', sans-serif; font-size: 0.98em; font-weight: 500; color: #000000; background: #ffffff; border-style: none; position: relative; 
+  border-top: 1px solid #c6c6c6; }
+textarea 
+{ width: 99%; height: 117px; float: left; margin-left: 0px; margin-top: 5px; padding-left: 5px; background: #f1e6d9; font-family: 'Open Sans', sans-serif; font-size: 0.98em; font-weight: 500; color: #000000; background: #ffffff; border-style: none; 
+  position: relative; border-top: 1px solid #c6c6c6; }
+select
+{ height: 25px; float: left; margin-left: 0px; margin-top: 5px; margin-bottom: 0px; padding-left: 5px; }
+.lblNazev                       
+{ width: 100%; height: 20px; float: left; margin: 0px; padding: 0px;font-family: 'Open Sans', sans-serif; font-size: 0.96em; font-weight: 500; color: #000000; text-decoration: none; text-align: left; text-transform: none; 
+  letter-spacing: 0.01em; word-spacing: 0.01em; background: none;}
+.lbl-radio
+{ width: 100px; }
+.rowElem 
+label.error 
+{ width: 250px; height: 17px; float: left; margin-left: 60px; margin-top: 2px; padding-top: 3px; position: absolute; font-family: 'Open Sans', sans-serif; font-size: 0.90em; font-weight: 500; color: #000000; text-decoration: none; text-align: center; 
+  background: none; border-bottom: 2px solid #cb2525 }
+
+.rowElem                  
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 25px; font-family: 'Open Sans', sans-serif; font-size: 0.94em; font-weight: 500; color: #000000; text-decoration: none; text-align: left; text-transform: none; line-height: 1.0em; 
+  letter-spacing: 0.01em; word-spacing: 0.01em; position: relative; background: none; }             
+.rowElemSelect 
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20px; font-family: 'Open Sans', sans-serif; font-size: 0.94em; font-weight: 500; color: #000000; text-decoration: none; text-align: left; text-transform: none; line-height: 1.0em; 
+  letter-spacing: 0.01em; word-spacing: 0.01em; position: relative; background: none; } 
+.rowMat                   
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 10px; padding-bottom: 10px; font-family: 'Open Sans', sans-serif; font-size: 0.90em; font-weight: 500; color: #000000; text-decoration: none; text-align: left; text-transform: none; line-height: 1.0em; 
+  letter-spacing: 0.01em; word-spacing: 0.01em; position: relative; background: none; border-bottom: 1px solid #eeeeee; }  
+.thanks                     
+{ color: green; font-weight: bold; }
+form.jqtransformdone label
+{ margin-top: 7px; margin-right: 8px; display: block; float: left; }
+form.jqtransformdone div.rowElem
+{ clear: both; }
+
+#gdpr-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; background: none; }
+#gdpr-popis-bg
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; background: none; }
+#gdpr-popis p
+{ float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; font-family: 'Montserrat', sans-serif; font-size: 0.80em; font-weight: 400; color: #222222; text-align: left; text-transform: none; text-decoration: none; }
+#gdpr-popis a
+{ color: #3a5795; text-decoration: underline; }
+#gdpr-popis a:hover 
+{ color: #3a5795; text-decoration: none; }
+#gdpr-checkBoxBg
+{ width: 100%; height: 32px; float: left; margin-left: 0px; margin-top: 5px; background: none; }
+
+/* BTN SEND */
+.btn-send
+{ width: 100%; height: 30px; float: left; margin-left: 0px; margin-top: 5px; margin-bottom: 15px; border: none; font-family: 'Open Sans', sans-serif; font-size: 0.96em; font-weight: 600; color: #ffffff; text-transform: uppercase; background: #261a65; 
+  cursor: pointer; overflow: visible; white-space: nowrap; }
+/* Checkboxes */
+span.jqTransformCheckboxWrapper
+{ display: block; float: left; margin-left: 0px; margin-top: 0px; }
+a.jqTransformCheckbox 
+{ background: #eeeeee url(../images/poptavky/checkbox.png) no-repeat center top; vertical-align: middle; height: 24px; width: 24px; display:block;  }
+/* Checked - Used for both Radio and Checkbox */
+a.jqTransformChecked 
+{ background-position: center bottom;}
+/* SELECTS */
+.jqTransformSelectWrapper 
+{ width: 45px; position: relative; height: 31px; background: url(../images/poptavky/select_left.gif) no-repeat top left; float:left; margin-left: 0px; margin-top: 5px;}
+.jqTransformSelectWrapper div span 
+{ font-size: 12px; float: none; position: absolute; width: 14px; height: 31px; padding: 8px 0 0 7px; font-family: 'Open Sans', sans-serif; overflow: hidden; cursor: pointer; }
+.jqTransformSelectWrapper  a.jqTransformSelectOpen 
+{ display: block; position: absolute; right: 0px; width: 31px; height: 31px; background: url(../images/poptavky/select_right.gif) no-repeat center center; }
+.jqTransformSelectWrapper ul 
+{ position: absolute; width: 43px; top: 30px; left: 0px; list-style: none; background-color: #FFF; border: solid 1px #cccccc; display: none; margin: 0px; padding: 0px;	height: auto;	overflow: auto; overflow-y: auto;	z-index:10; }
+.jqTransformSelectWrapper ul a 
+{ display: block; padding: 5px; text-decoration: none; color:#333; background-color: #FFF; font-size: 12px; }
+.jqTransformSelectWrapper ul a.selected 
+{ background: #EDEDED; color: #333; top: 0px;  }
+.jqTransformSelectWrapper ul a:hover, .jqTransformSelectWrapper ul a.selected:hover 
+{ background:#3582c4; color: #fff; }
+.jqTransformHidden 
+{display: none; }
+
+/** POTVRZENI OBJEDNAVKY **/
+#potvrzeni-send-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20%; padding-top: 20px; padding-bottom: 20px; margin-bottom: 0px; background: #ffe7d6; }
+#potvrzeni-send-napis p
+{ width: 100%; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 0px;  font-family: 'Open Sans', sans-serif; font-size: 1.0em; font-weight: 600; color: #000000; text-transform: none; text-align: center;
+  text-decoration: none; line-height: 1.0em; letter-spacing: 0.02em; background: none; }
+#potvrzeni-send-btn-panel
+{ width: 100%; height: auto; float:left; margin-left: 0px; margin-top: 20px; margin-bottom: 0px; background: none; }
+#potvrzeni-send-btn-bg
+{ width: 200px; height: auto; margin: 0px auto; top: 0px; position: relative; background: none; }
+#potvrzeni-send-btn a
+{ width: 100%; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding-top: 15px; padding-bottom: 15px; font-family: 'Open Sans', sans-serif; font-size: 1.0em; font-weight: 600; color: #ffffff; text-transform: none; text-align: center;
+  text-decoration: none; line-height: 1.0em; letter-spacing: 0.02em; background: #ff6900;   
+  -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+
+/************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/** KONTAKTY ************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.kontakt-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 20px; background: none; border: 0.05em solid #f2f2f2; }
+.kontakt-box
+{ width: 33.33%; height: auto; float: left; margin: 0px; padding-top: 0px; padding-bottom: 30px; background: none; }
+.kontakt-box-pobocka
+{ width: 33.33%; height: 150px; float: left; margin-left: -1px; margin-top: 0px; margin-bottom: 0px; background: none; border-right: 1px solid #f2f2f2; }
+.kontakt-nazev p
+{ width: 100%; height: 20px; float: left; margin-left: 0px; margin-top: 15px; margin-bottom: 10px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.94em; font-weight: 700; color: #464646; text-transform: uppercase; text-align: left; text-decoration: none;
+  letter-spacing: 0.03em; background: none; position: relative; display: block; }
+.kontakt-popis p
+{ width: 100%; float: left; margin-left: 0px; margin-top: 2px; margin-bottom: 2px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.84em; font-weight: 400; color: #000000; text-transform: none; text-align: left; text-decoration: none; 
+  letter-spacing: 0.02em; line-height:1.40em; background: none; }
+.kontakt-popis-no a
+{ width: 80%; height: 20px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 10px; padding-left: 30px; font-family: 'Open Sans', sans-serif; font-size: 0.84em; font-weight: 400; color: #000000; text-transform: none; text-align: left; 
+  text-decoration: none; letter-spacing: 0.02em; background: none; position: relative; display: block; }
+.kontakt-popis-mobile a
+{ width: 80%; height: 20px; float: left; margin-left: 0px; margin-top: 2px; margin-bottom: 0px; padding-left: 30px; font-family: 'Open Sans', sans-serif; font-size: 0.84em; font-weight: 400; color: #000000; text-transform: none; text-align: left; 
+  text-decoration: none; line-height: 20px; letter-spacing: 0.02em; background: url(../images/kontakty/mobile.png) no-repeat 0px 0px; position: relative; display: block; }
+.kontakt-popis-phone a
+{ width: 80%; height: 20px; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 0px; padding-left: 30px; font-family: 'Open Sans', sans-serif; font-size: 0.84em; font-weight: 400; color: #000000; text-transform: none; text-align: left; 
+  text-decoration: none; line-height: 20px; letter-spacing: 0.02em; background: url(../images/kontakty/phone.png) no-repeat 0px 0px; position: relative; display: block; }
+.kontakt-popis-fax a
+{ width: 80%; height: 20px; float: left; margin-left: 0px; margin-top: 2px; margin-bottom: 0px; padding-left: 30px; font-family: 'Open Sans', sans-serif; font-size: 0.84em; font-weight: 400; color: #000000; text-transform: none; text-align: left; 
+  text-decoration: none; letter-spacing: 0.02em; background: url(../images/kontakty/fax.png) no-repeat 0px 0px; position: relative; display: block; }
+.kontakt-popis-email a
+{ width: 80%; height: 20px; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; padding-left: 30px; font-family: 'Open Sans', sans-serif; font-size: 0.84em; font-weight: 400; color: #000000; text-transform: none; text-align: left; 
+  text-decoration: none; line-height: 20px; letter-spacing: 0.02em; background: url(../images/kontakty/email.png) no-repeat 0px 0px; position: relative; display: block; }
+.kontakt-popis-no a:hover, .kontakt-popis-mobile a:hover, .kontakt-popis-phone a:hover, .kontakt-popis-fax a:hover, .kontakt-popis-email a:hover
+{ text-decoration: underline; }
+
+.kontakt-popis-name p
+{ width: 100%; height: auto; float: left; margin: 0px; padding-top: 25px; font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 600; color: #000000; text-transform: none; text-align: left; text-decoration: none; letter-spacing: 0.03em; background: none; position: relative; }
+.kontakt-popis-pozice p
+{ width: 100%; height: auto; float: left; margin: 0px; padding-top: 3px; padding-bottom: 5px; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 500; color: #464646; text-transform: none; text-align: left; text-decoration: none; letter-spacing: 0.03em; background: none; position: relative; }
+
+#kontakt-map-bg
+{ width: 100%; height: 400px; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 20px; background: #f6f6f6; }
+#kontakt-map
+{ width: 100%; height: 400px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+
+#pobocky-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 20px; background: none; }
+.pobocky-boxBG
+{ width: 50%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+.pobocky-box
+{ margin: 20px 20px 20px 20px; background-image: linear-gradient(90deg, #006ca1 0%, #00aeff 100%); position: relative; bottom: 15px; display: block; overflow: hidden; 
+  -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+.pobocky-box h2 a
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 8px; padding: 0px 0px 0px 0px; font-family: 'Open Sans', sans-serif; font-size: 0.80em; font-weight: 700; color: #ffffff; text-transform: none; text-align: center;
+  text-decoration: none; line-height: 1.0em; letter-spacing: 0.03em; background: none; }
+.pobocky-box-adresa p
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 5px; margin-bottom: 0px; padding: 0px 0px 0px 0px; font-family: 'Open Sans', sans-serif; font-size: 0.80em; font-weight: 400; color: #ffffff; text-transform: none; text-align: center;
+  text-decoration: none; line-height: 1.0em; letter-spacing: 0.02em; background: none; }
+
+.produkt--picture:before
+{ max-width: 100%; height: auto; }
+.pobocky--odkaz:before 
+{ content: ""; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background: none; z-index: 902; }
+.pobocky-box:hover
+{ background-image: linear-gradient(90deg, #00aeff 0%, #006ca1 100%); }
+.pobocky-map
+{ width: 100%; height: 250px; float: left; margin-left: 0px; margin-top: 15px; margin-bottom: 0px; background: none; position: relative; z-index: 901; }
+
+
+
+/** REVIEW **/
+.review-panel 
+{ width: 100%; height: auto; float: left; margin: 0px; padding: 40px; box-sizing: border-box; text-align: center; }
+.review-panel h2 
+{ margin-bottom: 25px; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: 600; color: #2f2176; }
+.qr-box 
+{ width: 180px; height: 180px; margin: 0 auto 25px; background-color: #eaeaea; display: flex; justify-content: center; align-items: center; border-radius: 12px; overflow: hidden; }
+.qr-box img 
+{ width: 100%; height: 100%; object-fit: cover; }
+.review-btn 
+{ display: inline-block; padding: 12px 20px;  font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 600; background-color: #007bff; color: #ffffff; text-decoration: none; border-radius: 8px; transition: 0.3s; }
+.review-btn:hover 
+{ background-color: #0056b3; }
+
+
+
+
+/** KONTAKT GALLERY **/
+#kontakt-gallery-nazev p
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.96em; font-weight: 600; color: #000000; text-transform: none; text-align: left; text-decoration: none; line-height: 1.40em; letter-spacing: 0.01em; background: none; }
+#kontakt-gallery-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 20px; padding-top: 20px; padding-bottom: 20px; background: #f6f6f6; }
+.kontakt-gallery-box
+{ width: 33.33%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; background: none; }
+
+/** GOOGLE MAPS **/
+#google-maps-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
+#google-maps-box
+{ width: 600px; height: 450px; margin: 0px auto; top: 0px; position: relative; background: none; }
+
+
+
+/*********************************************************************************************************************************************************************************************************************************************************************/
+/***************************************************************************************************************************** FOOTER ********************************************************************************************************************************/
+#footer
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 30px; margin-bottom: 0px; padding: 0px; background: #233647; position: relative; z-index: 997; }
+.footer-box
+{ width: 20%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 10px; padding: 0px; background: none; }
+
+#footer-address p
+{ width: 80%; height: 32px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 20px; padding-left: 50px; font-family: 'Open Sans', sans-serif; font-size: 0.90em; font-weight: 600; color: #ffffff; text-transform: none; text-align: left; 
+  text-decoration: none; line-height: 1.30em; letter-spacing: 0.01em; background: url(../images/footer/footer-address.png) no-repeat 0px 0px; }
+#footer-phone a
+{ width: 80%; height: 32px; float: left; margin-left: 0px; margin-top: 20px; padding-left: 50px; font-family: 'Open Sans', sans-serif; font-size: 0.90em; font-weight: 600; color: #ffffff; text-transform: none; text-align: left; text-decoration: none; 
+  line-height: 32px; letter-spacing: 0.01em; background: url(../images/footer/footer-phone.png) no-repeat 0px 0px; }
+#footer-email a
+{ width: 80%; height: 32px; float: left; margin-left: 0px; margin-top: 10px; padding-left: 50px; font-family: 'Open Sans', sans-serif; font-size: 0.90em; font-weight: 600; color: #ffffff; text-transform: none; text-align: left; text-decoration: none; 
+  line-height: 32px; letter-spacing: 0.01em; background: url(../images/footer/footer-email.png) no-repeat 0px 0px; }
+#footer-phone a:hover, #footer-email a:hover
+{ text-decoration: underline; }
+
+.footer-box-nazev a
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.86em; font-weight: 600; color: #ffffff; text-transform: none; text-align: left; text-decoration: none; 
+  letter-spacing: 0.01em; background: none; }
+.footer-box-odkaz
+{ width: 100%; height: auto; float: left; margin-left: -1px; margin-top: 10px; margin-bottom: 10px; background: none; border-left: 1px solid #00aefe; }
+.footer-box-odkaz-popis a 
+{ width: 90%; height: auto; float: left; margin-left: 8px; margin-top: 3px; margin-bottom: 3px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.76em; font-weight: 500; color: #8d95ab; text-transform: none; text-align: left; text-decoration: none;
+  letter-spacing: 0.01em; line-height: 1.0em; background: none; transition: all 0.3s linear; -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; -o-transition: all 0.3s linear; }
+.footer-box-odkaz-popis a:hover
+{ color: #ffffff; }
+.footer-popis-white a
+{ margin-top: 10px; font-size: 0.80em; background: #ffffff;}
+
+/** FOOTER LEVNA OKNA **/
+.footer-levna-okna-panel
+{ width: 100%; height: auto; float: left; margin: 0px; padding-top: 20px; padding-bottom: 20px; background: #f6f6f6; }
+.footer-levna-okna-box
+{ width: 340px; height: 60px; margin: 0px auto; top: 0px; background: none; position: relative; }
+.footer-levna-okna-btn a
+{ width: 100%; height: auto; float: left; margin: 0px; padding-top: 10px; padding-bottom: 10px; font-family: 'Open Sans', sans-serif; font-size: 15px; font-weight: 600; color: #ffffff; text-transform: none; text-align: center; text-decoration: none; text-transform: uppercase; letter-spacing: 0.02em; line-height: 26px; 
+  background-image: linear-gradient(90deg, #007b03 0%, #00b704 100%); transition: all 0.3s linear; -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; -o-transition: all 0.3s linear; -moz-border-radius: 16px 16px 16px 16px; -khtml-border-radius: 16px 16px 16px 16px; border-radius: 16px 16px 16px 16px; }
+.footer-levna-okna-btn a:hover
+{ background-image: linear-gradient(90deg, #00b704 0%, #007b03 100%); }
+
+
+/** FOOTER REKLAMA **/
+#footer-reklama-panel
+{ width: 100%; height: auto; float: left; margin: 0px; padding: 0px; background: #ffffff; }
+#footer-reklama-box
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; padding: 0px; background: none; }
+
+#footer-reklama-zelena-box
+{ width: 180px; height: auto; margin: 0px auto; top: 10px; position: relative; background: black; }
+#footer-reklama-zelena a
+{ width: 100%; height: auto; float: left; margin: 0px; padding: 0px; background: none; }
+#footer-reklama-sklenar-bg
+{ width: 246px; height: 80px; margin: 0px auto; top: 30px; bottom: 50px; position: relative; background: none; }
+#footer-reklama-sklenar a
+{ width: 246px; height: 80px; float: left; margin: 0px; background: url(../images/footer/logo-sklenar.png) no-repeat 0px 0px; }
+
+.footer-reklama-eu-panel 
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 20px; padding-top: 20px; padding-bottom: 20px; position: relative; background: none; }
+.footer-reklama-eu 
+{ width: 350px; height: auto; margin: 0px auto; top: 10px; position: relative; background: none; }
+.footer-reklama-eu-txt p
+{ width: 100%; height: auto; float: left; margin: 0px; padding-top: 10px; padding-bottom: 10px; font-family: 'Open-Sans', sans-serif; font-size: 14px; font-weight: 500; color: #014ea6; text-transform: none; text-decoration: none; text-align: center; line-height: 150%; letter-spacing: 0.02em; background: none; }
+
+
+/** FOOTER REVIEW **/
+.footer-firmy-review-panel
+{ width: 100%; height: auto; float: left; margin: 0px; padding: 0px 0px 40px 0px; text-align: center; background: #ffffff; }
+.footer-firmy-review
+{ padding: 20px 18px 20px 18px; font-family: 'Open-Sans', sans-serif; font-size: 18px; font-weight: 00; color: #ffffff; background: #cc0000; text-decoration: none; }
+
+
+
+/** COPYRIGHT **/
+#copyright
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; padding-top: 10px; padding-bottom: 10px; background: #102538; }
+.copyright-txt p
+{ width: 100%; float: left; margin-left: 0px; margin-top: 5px; margin-bottom: 5px; padding: 0px; font-family: 'Open-Sans', sans-serif; font-size: 0.82em; font-weight: 500; color: #ffffff; text-transform: none; text-decoration: none; text-align: center; 
+  line-height: 1.0em; letter-spacing: 0.02em; background: none; }
+.copyright-txt a
+{ color: #00aefe; text-decoration: none; transition: all 0.3s linear; -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; -o-transition: all 0.3s linear; }
+.copyright-txt a:hover
+{ text-decoration: underline; }
+ 
