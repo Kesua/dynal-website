@@ -22,7 +22,7 @@
             <div id="navi">
                <div class="navi-step-home"><a href="/"></a></div>
                <div class="navi-jump"></div>
-               <div class="navi-step"><a href="/hlinikova-okna-a-dvere">Hliníková okna a dveře</a></div>
+               <div class="navi-step"><a href="/hlinikove-dvere">Hliníkové dveře</a></div>
                <div class="navi-jump"></div>
                <div class="navi-step-last"><p>Hliníkové požární systémy</p></div>
             </div>

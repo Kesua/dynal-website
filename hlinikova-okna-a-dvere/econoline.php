@@ -22,7 +22,7 @@
             <div id="navi">
                <div class="navi-step-home"><a href="/"></a></div>
                <div class="navi-jump"></div>
-               <div class="navi-step"><a href="/hlinikova-okna-a-dvere">Hliníková okna a dveře</a></div>
+               <div class="navi-step"><a href="/hlinikova-okna">Hliníková okna</a></div>
                <div class="navi-jump"></div>
                <div class="navi-step"><a href="/hlinikova-okna-a-dvere/serie-econoline">Série ECONOLINE</a></div>
                <div class="navi-jump"></div>

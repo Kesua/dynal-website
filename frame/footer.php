@@ -30,7 +30,7 @@
 
    <div class="footer-box">
       <div class="odraz-10">
-	     <div class="footer-box-nazev"><a href="/plastova-okna-a-dvere/">Plastová okna a dveře</a></div>
+	     <div class="footer-box-nazev"><a href="/plastova-okna/">Plastová okna</a></div>
 		 <div class="footer-box-odkaz">
 	        <div class="footer-box-odkaz-popis">
 			   <a href="/plastove-okenni-systemy/ideal-2000">Série Ideal 2000</a>
@@ -49,16 +49,39 @@
 
    <div class="footer-box">
       <div class="odraz-10">
-         <div class="footer-box-nazev"><a href="/hlinikova-okna-a-dvere">Hliníková okna a dveře</a></div>
+	     <div class="footer-box-nazev"><a href="/plastove-dvere/">Plastové dveře</a></div>
+		 <div class="footer-box-odkaz">
+	        <div class="footer-box-odkaz-popis">
+			   <a href="/dverni-systemy/vstupni-dvere-ideal-2000">Vstupní dveře Ideal 2000</a>
+			   <a href="/dverni-systemy/vstupni-dvere-ideal-4000">Vstupní dveře Ideal 4000</a>
+			   <a href="/dverni-systemy/vstupni-dvere-ideal-7000">Vstupní dveře Ideal 7000</a>
+			   <a href="/zdvizne-posuvne-dvere">Zdvižné posuvné dveře</a>
+		    </div>
+		 </div>
+      </div>
+   </div>
+
+   <div class="footer-box">
+      <div class="odraz-10">
+         <div class="footer-box-nazev"><a href="/hlinikova-okna/">Hliníková okna</a></div>
 	     <div class="footer-box-odkaz">
 	        <div class="footer-box-odkaz-popis">
 			   <a href="/hlinikova-okna-a-dvere/serie-star">Série Star</a>
 			   <a href="/hlinikova-okna-a-dvere/serie-superial">Série Superial</a>
 			   <a href="/hlinikova-okna-a-dvere/serie-econoline">Série Econoline</a>
+		    </div>
+		 </div>
+      </div>
+   </div>
+
+   <div class="footer-box">
+      <div class="odraz-10">
+         <div class="footer-box-nazev"><a href="/hlinikove-dvere/">Hliníkové dveře</a></div>
+	     <div class="footer-box-odkaz">
+	        <div class="footer-box-odkaz-popis">
 			   <a href="/hlinikove-posuvne-systemy/posuvny-system-ultraglide">Posuvný systém Ultraglide</a>
 			   <a href="/hlinikove-posuvne-systemy/slide-plus">Posuvný systém Slide Plus</a>
-			   <a href="/hlinikova-okna-a-dvere/serie-econoline">Série Econoline</a>
-			   <a href="/hlinikove-posuvne-systemy/posuvny-system-ultraglide">Posuvný systém Ultraglide</a>
+			   <a href="/hlinikove-pozarni-systemy">Požární systémy</a>
 		    </div>
 		 </div>
       </div>

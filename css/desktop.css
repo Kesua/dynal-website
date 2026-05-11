@@ -133,7 +133,7 @@ html
 /*********************************************************************************************************************************************************************************************************************************************************************/
 /*************************************************************************************************************************** NAVIGATION ******************************************************************************************************************************/
 #navi-panel
-{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 101px; margin-bottom: 0px; background-image: linear-gradient(90deg, #006ca1 0%, #00aeff 100%); }
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 136px; margin-bottom: 0px; background-image: linear-gradient(90deg, #006ca1 0%, #00aeff 100%); }
 #navi
 { width: 100%; height: 35px; float: left; margin-left: 0px; margin-top: 5px; margin-bottom: 5px; background: none; }
 .navi-step-home a
@@ -764,6 +764,20 @@ a.jqTransformChecked
 { background-image: linear-gradient(90deg, #00aeff 0%, #006ca1 100%); }
 .pobocky-map
 { width: 100%; height: 250px; float: left; margin-left: 0px; margin-top: 15px; margin-bottom: 0px; background: none; position: relative; z-index: 901; }
+.pobocky-review
+{ display: flex; align-items: center; gap: 16px; margin: 5px 20px 20px; padding: 14px 18px; background: #f4f8fb; border-left: 3px solid #006ca1; box-sizing: border-box; }
+.pobocky-review .qr-box
+{ width: 150px; height: 150px; flex-shrink: 0; background: #ffffff; padding: 6px; box-sizing: border-box; }
+.pobocky-review .qr-box img
+{ width: 100%; height: 100%; display: block; }
+.pobocky-review-text
+{ flex: 1; }
+.pobocky-review-text p
+{ font-family: 'Open Sans', sans-serif; font-size: 12px; color: #555; margin: 0 0 8px; line-height: 1.4em; }
+.pobocky-review .review-btn
+{ display: inline-block; font-family: 'Open Sans', sans-serif; font-size: 11px; font-weight: 700; padding: 8px 14px; background-color: #006ca1; color: #ffffff !important; border-radius: 4px; text-decoration: none; text-transform: uppercase; letter-spacing: 0.02em; }
+.pobocky-review .review-btn:hover
+{ background-color: #004f7a; }
 
 
 

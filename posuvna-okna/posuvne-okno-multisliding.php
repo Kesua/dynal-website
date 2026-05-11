@@ -22,7 +22,7 @@
             <div id="navi">
                <div class="navi-step-home"><a href="/"></a></div>
                <div class="navi-jump"></div>
-               <div class="navi-step"><a href="/plastova-okna-a-dvere">Plastová okna a dveře</a></div>
+               <div class="navi-step"><a href="/plastova-okna">Plastová okna</a></div>
                <div class="navi-jump"></div>
                <div class="navi-step"><a href="/posuvna-okna">Posuvná okna</a></div>
                <div class="navi-jump"></div>

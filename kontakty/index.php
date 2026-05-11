@@ -125,7 +125,14 @@
                      <h2><a class="pobocky--odkaz" href="/kontakty/pobocka-rakovnik">Pobočka Rakovník</a></h2>
                      <div class="pobocky-box-adresa"><p>Nábřeží T.G.M 726/II, 269 01 Rakovník</p></div>
                      <div class="pobocky-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1279.7875147801421!2d13.727216064731754!3d50.10165979151954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470a4ec5b883a2a3%3A0x9ef05c4967bd5b5d!2sDYNAL+s.r.o.+-+okna%2C+zimn%C3%AD+zahrady!5e0!3m2!1scs!2scz!4v1544699648938" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-                  </div> 
+                  </div>
+                  <div class="pobocky-review">
+                     <div class="qr-box"><img src="/images/kontakty/qr/rakovnik.png" alt="QR kód Rakovník"></div>
+                     <div class="pobocky-review-text">
+                        <p>Byli jste spokojeni? Napište nám recenzi na Google!</p>
+                        <a href="https://g.page/r/CcTNMMkup1NREAE/review" target="_blank" class="review-btn">Ohodnoťte pobočku</a>
+                     </div>
+                  </div>
                </div>
 
                <div class="pobocky-boxBG">
@@ -133,15 +140,29 @@
                      <h2><a class="pobocky--odkaz" href="/kontakty/pobocka-kralovice">Pobočka Kralovice</a></h2>
                      <div class="pobocky-box-adresa"><p>Tyršova 565, 331 41 Kralovice</p></div>
                      <div class="pobocky-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2565.5042675171335!2d13.491897115821324!3d49.98315462880552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470a5bfcede0747f%3A0xb48a178bb70c864!2sDYNAL+s.r.o.+-+okna%2C+zimn%C3%AD+zahrady!5e0!3m2!1scs!2scz!4v1544699280417" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-                  </div> 
+                  </div>
+                  <div class="pobocky-review">
+                     <div class="qr-box"><img src="/images/kontakty/qr/kralovice.png" alt="QR kód Kralovice"></div>
+                     <div class="pobocky-review-text">
+                        <p>Byli jste spokojeni? Napište nám recenzi na Google!</p>
+                        <a href="https://g.page/r/CWTIcLt4oUgLEAE/review" target="_blank" class="review-btn">Ohodnoťte pobočku</a>
+                     </div>
+                  </div>
                </div>
-               
+
                <div class="pobocky-boxBG">
                   <div class="pobocky-box">
                      <h2><a class="pobocky--odkaz" href="/kontakty/pobocka-blatna">Pobočka Blatná</a></h2>
                      <div class="pobocky-box-adresa"><p>Habrová 1415, 388 01 Blatná</p></div>
                      <div class="pobocky-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1682.3078388580925!2d13.878887562485135!3d49.43028701154528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b3c07bdf26bc5%3A0xa47564fb6ab7ded!2sDynal%2C+S.r.o.!5e0!3m2!1scs!2scz!4v1544701226257" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-                  </div> 
+                  </div>
+                  <div class="pobocky-review">
+                     <div class="qr-box"><img src="/images/kontakty/qr/blatna.png" alt="QR kód Blatná"></div>
+                     <div class="pobocky-review-text">
+                        <p>Byli jste spokojeni? Napište nám recenzi na Google!</p>
+                        <a href="https://g.page/r/CeQfIaYy_z3GEAE/review" target="_blank" class="review-btn">Ohodnoťte pobočku</a>
+                     </div>
+                  </div>
                </div>
                <!--
                <div class="pobocky-boxBG">

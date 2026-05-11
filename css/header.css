@@ -1,7 +1,7 @@
 ﻿/*********************************************************************************************************************************************************************************************************************************************************************/
 /****************************************************************************************************************************** HEADER *******************************************************************************************************************************/
 #header
-{ width: 100%; height: 101px; float: left; margin-left: 0px; margin-top: 0px; background: grey; position: fixed; z-index: 998; box-shadow: 0px 3px 8px #b6b4b4; }
+{ width: 100%; height: 136px; float: left; margin-left: 0px; margin-top: 0px; background: grey; position: fixed; z-index: 998; box-shadow: 0px 3px 8px #b6b4b4; }
 #header-info-panel
 { width: 100%; height: 60px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: #ffffff; position: relative; z-index: 999; border-bottom: 1px solid #f2f2f2; }
 #logo-dynal-desktop a
@@ -80,12 +80,24 @@ lang ul ul a
 #header-social-instagram a 
 { width: 24px; height: 24px; float: left; margin-left: 10px; margin-top: 8px; background: url(../images/header/header-instagram.png) no-repeat; }
 
-/* HEADER MENU */
+/* HEADER UTILITY MENU (top secondary row) */
+#menu-utility
+{ width: 100%; height: 32px; display: flex; align-items: stretch; justify-content: flex-end; margin: 0; padding-right: 10px; background: #f3f5f7; border-top: 1px solid #e5e8ec; box-sizing: border-box; position: relative; z-index: 997; }
+.menu-utility-btn
+{ display: flex; }
+.menu-utility-btn a
+{ display: flex; align-items: center; justify-content: center; padding: 0 14px; font-family: 'Open Sans', sans-serif; font-size: 11px; font-weight: 600; text-transform: uppercase; text-decoration: none; color: #5a6470; letter-spacing: 0.04em; white-space: nowrap; }
+.menu-utility-btn a:hover
+{ color: #c62c37; background: #ffffff; }
+
+/* HEADER MAIN MENU (product categories) */
 #menu
-{ width: 100%; height: 40px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: #ffffff; border-top: 1px solid #bebebe; position: relative; z-index: 997; }
-.menu-btn a 
-{ width: 14.28%; height: 40px; float: left; margin: 0px; padding: 0px; line-height: 40px; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 700; text-align: center; text-transform: uppercase; text-decoration: none; color: #333333; }
-.menu-btn a:hover 
+{ width: 100%; height: 44px; display: flex; align-items: stretch; margin: 0; background: #ffffff; border-top: 1px solid #bebebe; position: relative; z-index: 997; }
+.menu-btn
+{ flex: 1 1 auto; display: flex; }
+.menu-btn a
+{ flex: 1; display: flex; align-items: center; justify-content: center; padding: 0 10px; font-family: 'Open Sans', sans-serif; font-size: 13px; font-weight: 700; text-align: center; text-transform: uppercase; text-decoration: none; white-space: nowrap; color: #2f2176; letter-spacing: 0.02em; }
+.menu-btn a:hover
 { color: #c62c37; background: #f8f8f8; }
 
 .overlay
@@ -96,16 +108,17 @@ lang ul ul a
 @media only screen and (max-width: 1400px)
 {
    /** MENU - VELIKOST TEXTU **/
-   .menu-btn a 
-   { font-size: 12px; }
+   .menu-btn a
+   { font-size: 12px; padding: 0 8px; }
 }
-
 
 @media only screen and (max-width: 1200px)
 {
    /** MENU - VELIKOST TEXTU **/
-   .menu-btn a 
-   { font-size: 10px; }
+   .menu-btn a
+   { font-size: 11px; padding: 0 6px; }
+   .menu-utility-btn a
+   { font-size: 10px; padding: 0 10px; }
 }
 
 @media only screen and (max-width: 1000px)
@@ -137,7 +150,7 @@ lang ul ul a
    .m-lang-flag-ru a:hover
    { width: 45px; height: 45px; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding: 0px; background: #e0eff5 url(../images/header/flag-ru.png) no-repeat center; }
 
-   #logo-dynal-desktop, nav, #menu, .lang-flag-cz a, .lang-flag-uk a, .lang-flag-de a, .lang-flag-ru a, #header-phone a, #header-konfig a, #header-social-panel, #header-flag-panel-bg, #header-poptavka a
+   #logo-dynal-desktop, nav, #menu, #menu-utility, .lang-flag-cz a, .lang-flag-uk a, .lang-flag-de a, .lang-flag-ru a, #header-phone a, #header-konfig a, #header-social-panel, #header-flag-panel-bg, #header-poptavka a
    { display: none; }
   
    /** HEADER CONTACT PANEL **/

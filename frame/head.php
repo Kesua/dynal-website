@@ -2,14 +2,14 @@
 <meta name="robots" content="index, follow" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 
-<link rel="stylesheet" href="https://www.dynal.cz/css/header.css?v=2505202250012" media="screen">
-<link rel="stylesheet" href="https://www.dynal.cz/css/desktop.css?v=250520250012" media="screen">
-<link rel="stylesheet" href="https://www.dynal.cz/css/mobile.css?v=25052025001" media="screen">
-<link rel="stylesheet" href="https://www.dynal.cz/css/new-gallery.css?v=2005202501" media="screen">
-<link rel="stylesheet" href="https://www.dynal.cz/css/newgallery.css?v=1201202501" media="screen">
+<link rel="stylesheet" href="/css/header.css?v=1011202603" media="screen">
+<link rel="stylesheet" href="/css/desktop.css?v=1011202603" media="screen">
+<link rel="stylesheet" href="/css/mobile.css?v=1011202603" media="screen">
+<link rel="stylesheet" href="/css/new-gallery.css?v=1011202603" media="screen">
+<link rel="stylesheet" href="/css/newgallery.css?v=1011202603" media="screen">
 
-<script type="text/javascript" src="https://www.dynal.cz/js/jquery.js"></script>
-<script type="text/javascript" src="https://www.dynal.cz/js/megas.js"></script>
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/megas.js"></script>
 
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=latin-ext" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Play:400,700&amp;subset=latin-ext" rel="stylesheet">
