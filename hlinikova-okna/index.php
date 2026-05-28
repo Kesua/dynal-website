@@ -6,7 +6,7 @@
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
    <title>Hliníková okna | Dynal</title>
-   <meta name="description" content="Hliníková okna na míru od českého výrobce Dynal s.r.o. Nabízíme systémy Star, Superial a Econoline s vynikajícími tepelně-izolačními vlastnostmi. Výroba, prodej a montáž po celé ČR.">
+   <meta name="description" content="Hliníková okna na míru od českého výrobce Dynal s.r.o. Nabízíme systémy Genesis, Star, Superial a Econoline s vynikajícími tepelně-izolačními vlastnostmi. Výroba, prodej a montáž po celé ČR.">
 
    <!-- HEAD -->
    <?php $path = $_SERVER['DOCUMENT_ROOT']; $path = "../frame/head.php"; include_once($path); ?>
@@ -40,21 +40,35 @@
             </div>
 
             <div id="box-product-panel">
-               <div class="box-product-3-bg">
+               <div class="box-product-5-bg">
+                  <div class="box-product">
+                     <div class="boxproduct--picture"><img src="../images/produkty/hlinikova-okna-dvere/box/genesis-75.png" width="100%" height="auto" alt="Série GENESIS 75" title="Série GENESIS 75"></div>
+                     <h2><a class="boxproduct--odkaz" href="/hlinikova-okna-a-dvere/genesis-75">Série <br />GENESIS 75</a></h2>
+                  </div>
+               </div>
+
+               <div class="box-product-5-bg">
+                  <div class="box-product">
+                     <div class="boxproduct--picture"><img src="../images/produkty/hlinikova-okna-dvere/box/genesis-90.png" width="100%" height="auto" alt="Série GENESIS 90" title="Série GENESIS 90"></div>
+                     <h2><a class="boxproduct--odkaz" href="/hlinikova-okna-a-dvere/genesis-90">Série <br />GENESIS 90</a></h2>
+                  </div>
+               </div>
+
+               <div class="box-product-5-bg">
                   <div class="box-product">
                      <div class="boxproduct--picture"><img src="../images/produkty/hlinikova-okna-dvere/box/star-dvere.png" width="100%" height="auto" alt="Série STAR" title="Série STAR"></div>
                      <h2><a class="boxproduct--odkaz" href="/hlinikova-okna-a-dvere/serie-star">Série <br />STAR</a></h2>
                   </div>
                </div>
 
-               <div class="box-product-3-bg">
+               <div class="box-product-5-bg">
                   <div class="box-product">
                      <div class="boxproduct--picture"><img src="../images/produkty/hlinikova-okna-dvere/box/superial-okno.png" width="100%" height="auto" alt="Série SUPERIAL" title="Série SUPERIAL"></div>
                      <h2><a class="boxproduct--odkaz" href="/hlinikova-okna-a-dvere/serie-superial">Série <br />SUPERIAL</a></h2>
                   </div>
                </div>
 
-               <div class="box-product-3-bg">
+               <div class="box-product-5-bg">
                   <div class="box-product">
                      <div class="boxproduct--picture"><img src="../images/produkty/hlinikova-okna-dvere/box/econoline-okno.png" width="100%" height="auto" alt="Série ECONOLINE" title="Série ECONOLINE"></div>
                      <h2><a class="boxproduct--odkaz" href="/hlinikova-okna-a-dvere/serie-econoline">Série <br />ECONOLINE</a></h2>

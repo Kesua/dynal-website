@@ -68,6 +68,8 @@
 	        <div class="footer-box-odkaz-popis">
 			   <a href="/hlinikova-okna-a-dvere/serie-star">Série Star</a>
 			   <a href="/hlinikova-okna-a-dvere/serie-superial">Série Superial</a>
+			   <a href="/hlinikova-okna-a-dvere/genesis-75">Série Genesis 75</a>
+			   <a href="/hlinikova-okna-a-dvere/genesis-90">Série Genesis 90</a>
 			   <a href="/hlinikova-okna-a-dvere/serie-econoline">Série Econoline</a>
 		    </div>
 		 </div>
@@ -80,6 +82,7 @@
 	     <div class="footer-box-odkaz">
 	        <div class="footer-box-odkaz-popis">
 			   <a href="/hlinikove-posuvne-systemy/posuvny-system-ultraglide">Posuvný systém Ultraglide</a>
+			   <a href="/hlinikove-posuvne-systemy/slide-cold">Posuvný systém Slide Cold</a>
 			   <a href="/hlinikove-posuvne-systemy/slide-plus">Posuvný systém Slide Plus</a>
 			   <a href="/hlinikove-pozarni-systemy">Požární systémy</a>
 		    </div>

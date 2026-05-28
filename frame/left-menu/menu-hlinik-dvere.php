@@ -4,6 +4,7 @@
       <div class="dropbtn"><a href="/hlinikove-posuvne-systemy">Hliníkové posuvné systémy</a></div>
       <div class="dropdown-content">
          <a href="/hlinikove-posuvne-systemy/posuvny-system-ultraglide">Posuvný systém Ultraglide</a>
+         <a href="/hlinikove-posuvne-systemy/slide-cold">Posuvný systém Slide Cold</a>
          <a href="/hlinikove-posuvne-systemy/slide-plus">Posuvný systém Slide Plus</a>
       </div>
    </div>
@@ -12,14 +13,6 @@
       <div class="dropbtn"><a href="/hlinikove-pozarni-systemy">Hliníkové požární systémy</a></div>
       <div class="dropdown-content">
          <a href="/hlinikove-pozarni-systemy/fr-90">Požární systém FR 90</a>
-      </div>
-   </div>
-
-   <div class="dropdown">
-      <div class="dropbtn"><a href="/zdvizne-posuvne-dvere">Zdvižné posuvné dveře</a></div>
-      <div class="dropdown-content">
-         <a href="#">Zdvižné posuvné dveře 70 mm</a>
-         <a href="#">Zdvižné posuvné dveře 85 mm</a>
       </div>
    </div>
 

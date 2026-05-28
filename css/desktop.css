@@ -101,6 +101,17 @@ html
 .page-popis a:hover 
 { text-decoration: none; }
 
+.faq-section
+{ width: 100%; float: left; margin: 15px 0px 25px 0px; padding: 0px; background: none; }
+.faq-section h2
+{ width: 100%; float: left; margin: 20px 0px 10px 0px; padding: 0px 0px 8px 0px; font-family: 'Play', sans-serif; font-size: 1.30em; font-weight: 700; color: #2f2176; text-align: left; border-bottom: 2px solid #c62c37; }
+.faq-item
+{ width: 100%; float: left; margin: 8px 0px; padding: 14px 18px; background: #ffffff; border-left: 4px solid #00aeff; box-sizing: border-box; box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.08); }
+.faq-item h3
+{ width: 100%; float: left; margin: 0px 0px 6px 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.98em; font-weight: 700; color: #222222; text-align: left; line-height: 1.35em; }
+.faq-item p
+{ width: 100%; float: left; margin: 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.86em; font-weight: 500; color: #000000; text-align: left; line-height: 1.55em; }
+
 .nazev-underline p
 { width: 100%; float: left; margin-left: 0px; margin-top: 50px; margin-bottom: 0px; font-family: 'Play', sans-serif; font-size: 1.40em; font-weight: 600; color: #000000; text-align: center; text-transform: none; text-decoration: none; background: none; }
 .underline-panel
@@ -213,6 +224,16 @@ html
 #index-konfig-popis p
 { width: 100%; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 30px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.92em; font-weight: 500; color: #ffffff; text-align: center; text-decoration: none; text-transform: none; 
   line-height: 1.50em; }
+
+/** INDEX FAQ **/
+.index-faq-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding-top: 20px; padding-bottom: 40px; background: #ffffff; }
+.index-faq-item
+{ width: 33.33%; min-height: 135px; float: left; margin: 20px 0px 10px 0px; padding: 0px 15px; box-sizing: border-box; }
+.index-faq-item h2
+{ width: 100%; float: left; margin: 0px 0px 8px 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 1.00em; font-weight: 700; color: #2f2176; text-align: center; line-height: 1.30em; }
+.index-faq-item p
+{ width: 100%; float: left; margin: 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.88em; font-weight: 500; color: #000000; text-align: center; line-height: 1.55em; }
 
 /** KONFIG PAGE **/
 #konfig-header

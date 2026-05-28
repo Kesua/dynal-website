@@ -63,6 +63,10 @@
    .index-video-panel-half
    { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; background: none; }
 
+   /** INDEX FAQ **/
+   .index-faq-item
+   { width: 100%; min-height: 0px; }
+
    /** BOX PRODUCT **/
    .box-product-5-bg
    { width: 25%; height: auto; float: left; margin-left: 0px; margin-top: 5px; margin-bottom: 5px; background: none; }

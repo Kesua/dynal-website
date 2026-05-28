@@ -47,6 +47,14 @@
                <div class="box-product-3-bg">
                   <div class="box-product">
                      <div class="boxproduct--picture">
+						 <img src="../images/produkty/hlinikova-okna-dvere/posuvne-systemy/slide-cold.png" width="100%" height="auto" alt="Hliníkový posuvný systém SLIDE COLD" title="Hliníkový posuvný systém SLIDE COLD"></div>
+                     <h2><a class="boxproduct--odkaz" href="/hlinikove-posuvne-systemy/slide-cold">Posuvný systém <br />SLIDE COLD</a></h2>
+                  </div> 
+               </div>
+
+               <div class="box-product-3-bg">
+                  <div class="box-product">
+                     <div class="boxproduct--picture">
 						 <img src="../images/produkty/hlinikova-okna-dvere/posuvne-systemy/slide-plus-300.png" width="100%" height="auto" alt="Hliníkový posuvný systém SLIDE PLUS" title="Hliníkový posuvný systém SLIDE PLUS"></div>
                      <h2><a class="boxproduct--odkaz" href="/hlinikove-posuvne-systemy/slide-plus">Posuvný systém <br />SLIDE PLUS</a></h2>
                   </div> 

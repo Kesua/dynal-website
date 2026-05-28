@@ -3,6 +3,8 @@
    <div class="dropdown">
       <div class="dropbtn"><a href="/hlinikova-okna">Hliníková okna</a></div>
       <div class="dropdown-content">
+         <a href="/hlinikova-okna-a-dvere/genesis-75">Série GENESIS 75</a>
+         <a href="/hlinikova-okna-a-dvere/genesis-90">Série GENESIS 90</a>
          <a href="/hlinikova-okna-a-dvere/serie-star">Série STAR</a>
          <a href="/hlinikova-okna-a-dvere/serie-superial">Série SUPERIAL</a>
          <a href="/hlinikova-okna-a-dvere/serie-econoline">Série ECONOLINE</a>

@@ -112,6 +112,36 @@
          </div>
       </div>     
       
+      <div class="index-faq-panel">
+         <div class="wrapper">
+            <div class="odraz-20">
+               <div class="nazev-underline"><p>Časté otázky</p></div>
+               <div class="underline-panel"><div class="underline"></div></div>
+
+               <div class="index-faq-item">
+                  <h2>Jaké služby nabízíte?</h2>
+                  <p>Specializujeme se na zimní zahrady a plastová i hliníková okna a dveře na míru včetně montáže.</p>
+               </div>
+
+               <div class="index-faq-item">
+                  <h2>V jakých lokalitách působíte?</h2>
+                  <p>Působíme především v Praze, Středočeském a Plzeňském kraji a v Jižních Čechách.</p>
+               </div>
+
+               <div class="index-faq-item">
+                  <h2>Děláte realizace na klíč?</h2>
+                  <p>Ano, zajišťujeme kompletní služby od návrhu až po finální montáž.</p>
+               </div>
+
+               <div class="page-red-btn-panel">
+                  <div class="page-red-btn-bg">
+                     <div class="page-red-btn"><a href="/faq">Další otázky</a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
       <div class="index-nabidka-panel">
          <div class="wrapper">
             <div class="nazev-underline"><p>Reference</p></div>

@@ -3,6 +3,8 @@
    <div class="dropdown">
       <div class="dropbtn"><a href="/hlinikova-okna-a-dvere">Hliníková okna a dveře</a></div>
       <div class="dropdown-content">
+         <a href="/hlinikova-okna-a-dvere/genesis-75">Série GENESIS 75</a>
+         <a href="/hlinikova-okna-a-dvere/genesis-90">Série GENESIS 90</a>
          <a href="/hlinikova-okna-a-dvere/serie-star">Série STAR</a>
          <a href="/hlinikova-okna-a-dvere/serie-superial">Série SUPERIAL</a>
       </div>
@@ -26,14 +28,6 @@
       </div>
    </div>      
 
-   <div class="dropdown">
-      <div class="dropbtn"><a href="/posuvne-dvere">Zdvižné posuvné dveře</a></div>
-      <div class="dropdown-content">
-         <a href="#">Zdvižné posuvné dveře 70 mm</a>
-         <a href="#">Zdvižné posuvné dveře 85 mm</a>
-      </div>
-   </div>
-   
    <div class="dropdown">
       <div class="dropbtn"><a href="/vetraci-systemy">Větrací systémy</a></div>
       <div class="dropdown-content">

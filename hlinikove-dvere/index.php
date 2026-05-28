@@ -6,7 +6,7 @@
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
    <title>Hliníkové dveře | Dynal</title>
-   <meta name="description" content="Hliníkové dveře na míru od českého výrobce Dynal s.r.o. Nabízíme posuvné dveřní systémy, zdvižně-posuvné dveře a požárně odolné systémy. Výroba, prodej a montáž po celé ČR.">
+   <meta name="description" content="Hliníkové dveře na míru od českého výrobce Dynal s.r.o. Nabízíme hliníkové posuvné dveřní systémy a požárně odolné systémy. Výroba, prodej a montáž po celé ČR.">
 
    <!-- HEAD -->
    <?php $path = $_SERVER['DOCUMENT_ROOT']; $path = "../frame/head.php"; include_once($path); ?>
@@ -40,24 +40,17 @@
             </div>
 
             <div id="box-product-panel">
-               <div class="box-product-3-bg">
+               <div class="box-product-2-bg">
                   <div class="box-product">
                      <div class="boxproduct--picture"><img src="../images/produkty/hlinikova-okna-dvere/posuvne-systemy/ultraglide.png" width="100%" height="auto" alt="Hliníkové posuvné systémy" title="Hliníkové posuvné systémy"></div>
                      <h2><a class="boxproduct--odkaz" href="/hlinikove-posuvne-systemy">Posuvné <br />systémy</a></h2>
                   </div>
                </div>
 
-               <div class="box-product-3-bg">
+               <div class="box-product-2-bg">
                   <div class="box-product">
                      <div class="boxproduct--picture"><img src="../images/produkty/hlinikova-okna-dvere/pozarni-systemy/fr-90.png" width="100%" height="auto" alt="Hliníkové požární systémy" title="Hliníkové požární systémy"></div>
                      <h2><a class="boxproduct--odkaz" href="/hlinikove-pozarni-systemy">Požární <br />systémy</a></h2>
-                  </div>
-               </div>
-
-               <div class="box-product-3-bg">
-                  <div class="box-product">
-                     <div class="boxproduct--picture"><img src="../images/produkty/boxes/hst.png" width="100%" height="auto" alt="Zdvižné posuvné dveře" title="Zdvižné posuvné dveře"></div>
-                     <h2><a class="boxproduct--odkaz" href="/zdvizne-posuvne-dvere">Zdvižné posuvné <br />dveře</a></h2>
                   </div>
                </div>
             </div>

@@ -68,6 +68,12 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://www.dynal.cz/faq/</loc>
+  <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://www.dynal.cz/stresni-okna/</loc>
   <lastmod>2019-07-28T10:40:53+00:00</lastmod>
   <changefreq>daily</changefreq>
@@ -530,6 +536,18 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>https://www.dynal.cz/hlinikova-okna-a-dvere/genesis-75</loc>
+  <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.dynal.cz/hlinikova-okna-a-dvere/genesis-90</loc>
+  <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://www.dynal.cz/hlinikove-posuvne-systemy/ultraglide</loc>
   <lastmod>2019-07-28T10:40:53+00:00</lastmod>
   <changefreq>daily</changefreq>
@@ -548,8 +566,20 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>https://www.dynal.cz/hlinikove-posuvne-systemy/slide-cold</loc>
+  <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://www.dynal.cz/download/slide-plus.pdf</loc>
   <lastmod>2019-05-02T15:25:56+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.dynal.cz/download/slide.pdf</loc>
+  <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
@@ -682,6 +712,18 @@
 <url>
   <loc>https://www.dynal.cz/download/fr-90.pdf</loc>
   <lastmod>2019-05-02T15:25:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.dynal.cz/download/genesis-75.pdf</loc>
+  <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.dynal.cz/download/genesis-90.pdf</loc>
+  <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.41</priority>
 </url>
