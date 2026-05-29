@@ -1,3 +1,2 @@
 <?php
-header('Location: /reference/restaurace-republika-plzen.php', true, 301);
-exit;
+require $_SERVER['DOCUMENT_ROOT'] . '/frame/clean-url-render.php';

@@ -1,3 +1,2 @@
 <?php
-header('Location: /reference/zimni-zahrada-rakovnik.php', true, 301);
-exit;
+require $_SERVER['DOCUMENT_ROOT'] . '/frame/clean-url-render.php';

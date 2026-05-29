@@ -1,3 +1,2 @@
 <?php
-header('Location: /reference/zimni-zahrada-mix.php', true, 301);
-exit;
+require $_SERVER['DOCUMENT_ROOT'] . '/frame/clean-url-render.php';

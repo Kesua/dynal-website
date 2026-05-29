@@ -1,3 +1,2 @@
 <?php
-header('Location: /hlinikova-okna-a-dvere/superial-out.php', true, 301);
-exit;
+require $_SERVER['DOCUMENT_ROOT'] . '/frame/clean-url-render.php';

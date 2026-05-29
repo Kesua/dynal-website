@@ -1,3 +1,2 @@
 <?php
-header('Location: /stresni-okna/stresni-okno-roto-q4.php', true, 301);
-exit;
+require $_SERVER['DOCUMENT_ROOT'] . '/frame/clean-url-render.php';

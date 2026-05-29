@@ -1,3 +1,2 @@
 <?php
-header('Location: /venkovni-rolety/venkovni-roleta-heluz.php', true, 301);
-exit;
+require $_SERVER['DOCUMENT_ROOT'] . '/frame/clean-url-render.php';

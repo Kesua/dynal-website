@@ -1,3 +1,2 @@
 <?php
-header('Location: /uzitecne-informace/technicke-informace.php', true, 301);
-exit;
+require $_SERVER['DOCUMENT_ROOT'] . '/frame/clean-url-render.php';

@@ -1,3 +1,2 @@
 <?php
-header('Location: /plastove-okenni-systemy/ideal-2000.php', true, 301);
-exit;
+require $_SERVER['DOCUMENT_ROOT'] . '/frame/clean-url-render.php';

@@ -1,3 +1,2 @@
 <?php
-header('Location: /venkovni-rolety/venkovni-roleta-radix.php', true, 301);
-exit;
+require $_SERVER['DOCUMENT_ROOT'] . '/frame/clean-url-render.php';

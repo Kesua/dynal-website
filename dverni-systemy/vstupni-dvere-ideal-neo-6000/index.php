@@ -1,3 +1,2 @@
 <?php
-header('Location: /dverni-systemy/vstupni-dvere-ideal-neo-6000.php', true, 301);
-exit;
+require $_SERVER['DOCUMENT_ROOT'] . '/frame/clean-url-render.php';
