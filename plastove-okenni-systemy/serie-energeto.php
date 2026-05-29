@@ -43,31 +43,31 @@
             </div>
                
             <div id="box-product-panel">
-               <div class="box-product-2-bg">
+               <div class="box-product-4-bg">
                   <div class="box-product">
                      <div class="boxproduct--picture"><img src="../images/produkty/boxes/energeto/energeto-neo-6000.png" width="100%" alt="Plastový okenní systém ENERGETO NEO 6000" title="Plastový okenní systém ENERGETO NEO 6000"></div>
-                     <h2><a class="boxproduct--odkaz" href="https://dynal.cz/plastove-okenni-systemy/serie-energeto">ENERGETO <br />NEO 6000</a></h2>
+                     <h2><a class="boxproduct--odkaz" href="/plastove-okenni-systemy/energeto-5000">ENERGETO <br />NEO 6000</a></h2>
                   </div> 
                </div>
 
-               <div class="box-product-2-bg">
+               <div class="box-product-4-bg">
                   <div class="box-product">
                      <div class="boxproduct--picture"><img src="../images/produkty/boxes/energeto/energeto-8000.png" width="100%" alt="Plastový okenní systém ENERGETO 8000" title="Plastový okenní systém ENERGETO 8000"></div>
-                     <h2><a class="boxproduct--odkaz" href="https://dynal.cz/plastove-okenni-systemy/serie-energeto">ENERGETO <br />8000</a></h2>
+                     <h2><a class="boxproduct--odkaz" href="/plastove-okenni-systemy/energeto-8000">ENERGETO <br />8000</a></h2>
                   </div> 
                </div>
 
-               <div class="box-product-2-bg">
+               <div class="box-product-4-bg">
                   <div class="box-product">
                      <div class="boxproduct--picture"><img src="../images/produkty/boxes/energeto/energeto-neo-6000-s-vypenkou.png" width="100%" alt="Plastový okenní systém ENERGETO 6000 s výpěnkou" title="Plastový okenní systém ENERGETO 6000 s výpěnkou"></div>
-                     <h2><a class="boxproduct--odkaz" href="https://dynal.cz/plastove-okenni-systemy/serie-energeto">ENERGETO NEO 6000 <br />s výpěnkou</a></h2>
+                     <h2><a class="boxproduct--odkaz" href="/plastove-okenni-systemy/energeto-5000">ENERGETO NEO 6000 <br />s výpěnkou</a></h2>
                   </div> 
                </div>
 
-               <div class="box-product-2-bg">
+               <div class="box-product-4-bg">
                   <div class="box-product">
                      <div class="boxproduct--picture"><img src="../images/produkty/boxes/energeto/energeto-8000-s-vypenkou.png" width="100%" alt="Plastový okenní systém ENERGETO 8000 s výpěnkou" title="Plastový okenní systém ENERGETO 8000 s výpěnkou"></div>
-                     <h2><a class="boxproduct--odkaz" href="https://dynal.cz/plastove-okenni-systemy/serie-energeto">ENERGETO 8000 <br />s výpěnkou</a></h2>
+                     <h2><a class="boxproduct--odkaz" href="/plastove-okenni-systemy/energeto-8000">ENERGETO 8000 <br />s výpěnkou</a></h2>
                   </div> 
                </div>
             </div>

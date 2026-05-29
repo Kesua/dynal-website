@@ -43,28 +43,28 @@
                <div class="box-product-4-bg">
                   <div class="box-product">
                      <div class="boxproduct--picture"><img src="../images/produkty/boxes/ideal/vstupni-dvere/id-4000-vd.png" width="100%" alt="Vstupní dveře Ideal 4000" title="Vstupní dveře Ideal 4000"></div>
-                     <h2><a class="boxproduct--odkaz" href="/dverni-systemy/">Vstupní dveře <br />Ideal 4000</a></h2>
+                     <h2><a class="boxproduct--odkaz" href="/dverni-systemy/vstupni-dvere-ideal-4000">Vstupní dveře <br />Ideal 4000</a></h2>
                   </div> 
                </div>
                 
                <div class="box-product-4-bg">
                   <div class="box-product">
                      <div class="boxproduct--picture"><img src="../images/produkty/boxes/ideal/vstupni-dvere/neo-6000-vd.png" width="100%" alt="Vstupní dveře Ideal NEO 6000" title="Vstupní dveře Ideal NEO 6000"></div>
-                     <h2><a class="boxproduct--odkaz" href="/dverni-systemy/">Vstupní dveře <br />Ideal NEO 6000</a></h2>
+                     <h2><a class="boxproduct--odkaz" href="/dverni-systemy/vstupni-dvere-ideal-neo-6000.php">Vstupní dveře <br />Ideal NEO 6000</a></h2>
                   </div> 
                </div>
                                  
                <div class="box-product-4-bg">
                   <div class="box-product">
                      <div class="boxproduct--picture"><img src="../images/produkty/boxes/ideal/vstupni-dvere/id-7000-vd.png" width="100%" alt="Vstupní dveře Ideal 7000" title="Vstupní dveře Ideal 7000"></div>
-                     <h2><a class="boxproduct--odkaz" href="/dverni-systemy/">Vstupní dveře <br />Ideal 7000</a></h2>
+                     <h2><a class="boxproduct--odkaz" href="/dverni-systemy/vstupni-dvere-ideal-7000">Vstupní dveře <br />Ideal 7000</a></h2>
                   </div> 
                </div>
 
                <div class="box-product-4-bg">
                   <div class="box-product">
                      <div class="boxproduct--picture"><img src="../images/produkty/boxes/ideal/vstupni-dvere/id-6000-vd.png" width="100%" alt="Vstupní dveře s jednostrannou překryvnou výplní" title="Vstupní dveře s jednostrannou překryvnou výplní"></div>
-                     <h2><a class="boxproduct--odkaz" href="/dverni-systemy/">Vstupní dveře s jednostrannou <br />překryvnou výplní</a></h2>
+                     <h2><a class="boxproduct--odkaz" href="/dverni-systemy/vstupni-dvere-s-jednostrannou-prekryvnou-vyplni.php">Vstupní dveře s jednostrannou <br />překryvnou výplní</a></h2>
                   </div> 
                </div>
             </div>

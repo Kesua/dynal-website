@@ -80,8 +80,11 @@ LOG;
     	return $token;
     }
     
-    // VERIFY LEGITIMACY OF TOKEN
-    if (verifyFormToken('form1')) {
+    $form = 'form1';
+
+    // VERIFY LEGITIMACY OF TOKEN ONLY WHEN THE FORM IS SUBMITTED
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if (verifyFormToken($form)) {
     
         // CHECK TO SEE IF THIS IS A MAIL POST
         if (isset($_POST['input-tel'])) {
@@ -170,15 +173,11 @@ LOG;
         
         }
     } else {
-    
-   		if (!isset($_SESSION[$form.'_token'])) {
-   		
-   		} else {
-   			echo "Hack-Attempt detected. Got ya!.";
-   			writeLog('Formtoken');
-   	    }
-   
-   	}
+        echo "Hack-Attempt detected. Got ya!.";
+        writeLog('Formtoken');
+        die();
+    }
+    }
 
 ?>
 
@@ -206,7 +205,7 @@ LOG;
 
 <?php
 // generate a new token for the $_SESSION superglobal and put them in a hidden field
-$newToken = generateFormToken('form1');   
+$newToken = generateFormToken($form);   
 ?>
 
 <body>

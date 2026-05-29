@@ -57,21 +57,21 @@
                <div class="box-product-5-bg">
                   <div class="box-product">
                      <div class="boxproduct--picture"><img src="../images/produkty/hlinikova-okna-dvere/box/star-dvere.png" width="100%" height="auto" alt="Série STAR" title="Série STAR"></div>
-                     <h2><a class="boxproduct--odkaz" href="/hlinikova-okna-a-dvere/serie-star">Série <br />STAR</a></h2>
+                     <h2><a class="boxproduct--odkaz" href="/hlinikova-okna-a-dvere/serie-star.php">Série <br />STAR</a></h2>
                   </div>
                </div>
 
                <div class="box-product-5-bg">
                   <div class="box-product">
                      <div class="boxproduct--picture"><img src="../images/produkty/hlinikova-okna-dvere/box/superial-okno.png" width="100%" height="auto" alt="Série SUPERIAL" title="Série SUPERIAL"></div>
-                     <h2><a class="boxproduct--odkaz" href="/hlinikova-okna-a-dvere/serie-superial">Série <br />SUPERIAL</a></h2>
+                     <h2><a class="boxproduct--odkaz" href="/hlinikova-okna-a-dvere/serie-superial.php">Série <br />SUPERIAL</a></h2>
                   </div>
                </div>
 
                <div class="box-product-5-bg">
                   <div class="box-product">
                      <div class="boxproduct--picture"><img src="../images/produkty/hlinikova-okna-dvere/box/econoline-okno.png" width="100%" height="auto" alt="Série ECONOLINE" title="Série ECONOLINE"></div>
-                     <h2><a class="boxproduct--odkaz" href="/hlinikova-okna-a-dvere/serie-econoline">Série <br />ECONOLINE</a></h2>
+                     <h2><a class="boxproduct--odkaz" href="/hlinikova-okna-a-dvere/serie-econoline.php">Série <br />ECONOLINE</a></h2>
                   </div>
                </div>
             </div>

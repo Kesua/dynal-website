@@ -42,7 +42,7 @@
             <div id="nabidka-top-panel">
                <div id="nabidka-top-panel-pic">
                   <div class="odraz-20">
-                     <div id="nabidka-top-pic"><img src="../images/produkty/plastove-okenni-systemy/box/energeto-8000.png" width="100%" height="auto"></div>
+                     <div id="nabidka-top-pic"><img src="../images/produkty/boxes/energeto/energeto-8000.png" width="100%" height="auto"></div>
                   </div>
                </div>
 

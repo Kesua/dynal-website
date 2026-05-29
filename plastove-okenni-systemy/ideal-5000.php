@@ -41,7 +41,7 @@
             <div id="nabidka-top-panel">
                <div id="nabidka-top-panel-pic">
                   <div class="odraz-10">
-                     <div id="nabidka-top-pic"><img src="../images/produkty/plastove-okenni-systemy/ideal/ideal-5000-soft-line.png" width="100%" height="auto"></div>
+                     <div id="nabidka-top-pic"><img src="../images/produkty/dverni-systemy/box/ideal-4000.png" width="100%" height="auto"></div>
                   </div>
                </div>
            

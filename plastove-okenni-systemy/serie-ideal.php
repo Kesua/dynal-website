@@ -60,7 +60,7 @@
                <div class="box-product-3-bg">
                   <div class="box-product">
                      <div class="boxproduct--picture"><img src="../images/produkty/boxes/ideal/8000-predsazene-kridlo.png" width="100%" alt="Plastový okenní systém IDEAL 8000" title="Plastový okenní systém IDEAL 8000"></div>
-                     <h2><a class="boxproduct--odkaz" href="https://dynal.cz/plastove-okenni-systemy/serie-ideal">IDEAL 8000 <br />předsazené křídlo</a></h2>
+                     <h2><a class="boxproduct--odkaz" href="/plastove-okenni-systemy/ideal-8000">IDEAL 8000 <br />předsazené křídlo</a></h2>
                   </div> 
                </div>
             </div>
