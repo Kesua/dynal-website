@@ -53,6 +53,13 @@
                      <h2><a class="boxproduct--odkaz" href="/posuvna-okna">Posuvná <br />okna</a></h2>
                   </div>
                </div>
+
+               <div class="box-product-3-bg">
+                  <div class="box-product">
+                     <div class="boxproduct--picture"><img src="../images/produkty/boxes/barevna-provedeni-box.jpg" width="100%" alt="Barevná provedení" title="Barevná provedení"></div>
+                     <h2><a class="boxproduct--odkaz" href="/plastova-okna-a-dvere/barevna-provedeni">Barevná <br />provedení</a></h2>
+                  </div>
+               </div>
             </div>
          </div>
       </div>

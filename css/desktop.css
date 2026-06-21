@@ -427,6 +427,8 @@ html
 { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; padding: 0px; background: #f6f6f6; }
 .barvy-vzor-napis p
 { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 5px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.90em; font-weight: 600; color: #000000; text-align: center; text-decoration: none; text-transform: none; line-height: 1.60em; background: none; }
+.barvy-vzor-cena
+{ display: inline-block; margin-top: 3px; font-size: 0.80em; font-weight: 400; color: #777777; line-height: 1.30em; }
 
 
 
