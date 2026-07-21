@@ -153,7 +153,7 @@ LOG;
             
             //   CHANGE THE BELOW VARIABLES TO YOUR NEEDS
              
-			$to = "suberova@dynal.cz, sklenar@dynal.cz";
+			$to = "dynal@dynal.cz, sklenar@dynal.cz";
 			
 			$subject = 'Poptavka DYNAL ';
 			
