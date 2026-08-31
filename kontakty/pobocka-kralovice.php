@@ -46,10 +46,9 @@
                <div class="kontakt-box">
                   <div class="odraz-20">
                      <div class="kontakt-nazev"><p>Kontakty</p></div>
-                     <div class="kontakt-popis"><p><b>Zdeňka Suberová</b></div>
-                     <div class="kontakt-popis-mobile" title="Mobilní kontakt"><a href="tel:+420731150081">+420 731 150 081</a></div>
+                     <div class="kontakt-popis"><p><b>Pavla Kleknerová</b></div>
+                     <div class="kontakt-popis-mobile" title="Mobilní kontakt"><a href="tel:+420724020222">+420 724 020 222</a></div>
                      <div class="kontakt-popis-phone" title="Telefon"><a href="tel:+420373312358">+420 373 312 358</a></div>
-                     <div class="kontakt-popis-email" title="E-mail"><a href="mailto:suberova@dynal.cz">suberova@dynal.cz</a></div>
                   </div>
                </div>
            
@@ -60,7 +59,12 @@
                   </div>
                </div>
             </div>
-            
+
+            <div class="pobocka-info-panel">
+               <p class="pobocka-info-hlavni">Domluvte si schůzku na pobočce Kralovice &ndash; každé úterý.</p>
+               <p class="pobocka-info-vedlejsi">Pobočka v Kralovicích je v ostatních dnech pouze pro divizi Zimních zahrad.</p>
+            </div>
+
             <div class="review-panel">
                <h2>Zanechte nám recenzi</h2>
                <div class="qr-box"><img src="../images/kontakty/qr/kralovice.png" alt="QR kód Kralovice"></div>

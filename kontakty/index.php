@@ -63,7 +63,7 @@
 
                      <div class="kontakt-popis-name"><p>Pešková Michaela</p></div>
                      <div class="kontakt-popis-pozice"><p><i>výroba, objednávky</i></p></div>
-                     <div class="kontakt-popis-mobile"><a href="tel:+420739565720">+420 739 565 720</a></div>
+                     <div class="kontakt-popis-mobile"><a href="tel:+420731150081">+420 731 150 081</a></div>
 
                      <div class="kontakt-popis-name"><p>Chomátová Kateřina</p></div>
                      <div class="kontakt-popis-pozice"><p><i>účetní</i></p></div>
