@@ -660,10 +660,6 @@ label.error
   letter-spacing: 0.01em; word-spacing: 0.01em; position: relative; background: none; border-bottom: 1px solid #eeeeee; }  
 .thanks                     
 { color: green; font-weight: bold; }
-form.jqtransformdone label
-{ margin-top: 7px; margin-right: 8px; display: block; float: left; }
-form.jqtransformdone div.rowElem
-{ clear: both; }
 
 #gdpr-panel
 { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; background: none; }
@@ -682,31 +678,109 @@ form.jqtransformdone div.rowElem
 .btn-send
 { width: 100%; height: 30px; float: left; margin-left: 0px; margin-top: 5px; margin-bottom: 15px; border: none; font-family: 'Open Sans', sans-serif; font-size: 0.96em; font-weight: 600; color: #ffffff; text-transform: uppercase; background: #261a65; 
   cursor: pointer; overflow: visible; white-space: nowrap; }
-/* Checkboxes */
-span.jqTransformCheckboxWrapper
-{ display: block; float: left; margin-left: 0px; margin-top: 0px; }
-a.jqTransformCheckbox 
-{ background: #eeeeee url(../images/poptavky/checkbox.png) no-repeat center top; vertical-align: middle; height: 24px; width: 24px; display:block;  }
-/* Checked - Used for both Radio and Checkbox */
-a.jqTransformChecked 
-{ background-position: center bottom;}
-/* SELECTS */
-.jqTransformSelectWrapper 
-{ width: 45px; position: relative; height: 31px; background: url(../images/poptavky/select_left.gif) no-repeat top left; float:left; margin-left: 0px; margin-top: 5px;}
-.jqTransformSelectWrapper div span 
-{ font-size: 12px; float: none; position: absolute; width: 14px; height: 31px; padding: 8px 0 0 7px; font-family: 'Open Sans', sans-serif; overflow: hidden; cursor: pointer; }
-.jqTransformSelectWrapper  a.jqTransformSelectOpen 
-{ display: block; position: absolute; right: 0px; width: 31px; height: 31px; background: url(../images/poptavky/select_right.gif) no-repeat center center; }
-.jqTransformSelectWrapper ul 
-{ position: absolute; width: 43px; top: 30px; left: 0px; list-style: none; background-color: #FFF; border: solid 1px #cccccc; display: none; margin: 0px; padding: 0px;	height: auto;	overflow: auto; overflow-y: auto;	z-index:10; }
-.jqTransformSelectWrapper ul a 
-{ display: block; padding: 5px; text-decoration: none; color:#333; background-color: #FFF; font-size: 12px; }
-.jqTransformSelectWrapper ul a.selected 
-{ background: #EDEDED; color: #333; top: 0px;  }
-.jqTransformSelectWrapper ul a:hover, .jqTransformSelectWrapper ul a.selected:hover 
-{ background:#3582c4; color: #fff; }
-.jqTransformHidden 
-{display: none; }
+
+/* POVINNE POLE A NAPOVEDA */
+.lbl-povinne
+{ color: #c62c37; }
+.lblNapoveda p
+{ width: 100%; float: left; margin-left: 0px; margin-top: 4px; margin-bottom: 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.80em; font-weight: 400; color: #464646; text-align: left; text-transform: none; line-height: 1.40em; background: none; }
+
+/* ODESLANI */
+#form-odeslat
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 20px; margin-bottom: 20px; background: none; }
+#form-odeslat .btn-send
+{ width: auto; min-width: 280px; height: 42px; margin-top: 0px; margin-bottom: 0px; padding-left: 40px; padding-right: 40px; font-size: 1.0em; letter-spacing: 0.03em; }
+#form-odeslat .btn-send:hover
+{ background: #c62c37; }
+
+/*********************************************************************************************************************************************************************************************************************************************************************/
+/**************************************************************** SPECIFIKACE POZIC V POPTAVCE (nepovinna) ***********************************************************************************************************************************************************/
+#spec-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 15px; margin-bottom: 0px; background: none; }
+
+/* ROZBALOVACI ZAHLAVI */
+#spec-toggle
+{ width: 100%; float: left; box-sizing: border-box; margin: 0px; padding: 16px 18px; background: #ffffff; border: 1px dashed #8fc3dd; text-decoration: none; cursor: pointer;
+  -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+#spec-toggle:hover
+{ background: #f5fbfe; border-color: #261a65; }
+.spec-toggle-ikona
+{ width: 26px; height: 26px; float: left; margin-top: 1px; margin-right: 14px; background: #261a65; border-radius: 50%; font-family: 'Open Sans', sans-serif; font-size: 17px; font-weight: 600; color: #ffffff; text-align: center; line-height: 25px; }
+#spec-toggle.spec-zavreno .spec-toggle-ikona:before
+{ content: "+"; }
+#spec-toggle.spec-otevreno .spec-toggle-ikona:before
+{ content: "\2212"; }
+.spec-toggle-text
+{ display: block; overflow: hidden; }
+.spec-toggle-nadpis
+{ display: block; font-family: 'Open Sans', sans-serif; font-size: 0.96em; font-weight: 700; color: #261a65; text-align: left; letter-spacing: 0.01em; line-height: 1.30em; }
+.spec-toggle-popis
+{ display: block; margin-top: 6px; font-family: 'Open Sans', sans-serif; font-size: 0.84em; font-weight: 400; color: #464646; text-align: left; line-height: 1.40em; }
+
+/* OBSAH */
+#spec-obsah
+{ width: 100%; float: left; margin: 0px; padding: 0px; }
+
+/* JEDNA POZICE */
+.spec-pozice
+{ width: 100%; float: left; box-sizing: border-box; margin-left: 0px; margin-top: 12px; margin-bottom: 0px; padding: 15px 18px 18px 18px; background: #ffffff; border-left: 4px solid #261a65; }
+.spec-pozice-skryta
+{ display: none; }
+.spec-pozice-nova
+{ -webkit-animation: specPozice .35s ease both; animation: specPozice .35s ease both; }
+@-webkit-keyframes specPozice
+{ from { opacity: 0; -webkit-transform: translateY(-8px); } to { opacity: 1; -webkit-transform: none; } }
+@keyframes specPozice
+{ from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce)
+{ .spec-pozice-nova { -webkit-animation: none; animation: none; } }
+.spec-pozice-nadpis p
+{ width: 100%; float: left; margin: 0px 0px 12px 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.80em; font-weight: 700; color: #261a65; text-transform: uppercase; text-align: left; letter-spacing: 0.06em; background: none; }
+
+.spec-radek
+{ width: 100%; margin: 0px; padding: 0px; display: grid; grid-template-columns: 1.5fr 0.9fr 0.9fr 1.6fr 1.4fr; grid-column-gap: 14px; grid-row-gap: 10px; }
+.spec-radek + .spec-radek
+{ margin-top: 14px; }
+
+.spec-pole label
+{ display: block; float: none; margin: 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.76em; font-weight: 600; color: #464646; text-transform: uppercase; text-align: left; letter-spacing: 0.03em; line-height: 1.30em; }
+#spec-panel .spec-pole input[type="text"], #spec-panel .spec-pole select
+{ width: 100%; height: 32px; float: none; box-sizing: border-box; margin: 5px 0px 0px 0px; padding: 0px 8px; font-family: 'Open Sans', sans-serif; font-size: 0.88em; font-weight: 400; color: #000000; background: #ffffff; border: 1px solid #c6c6c6; }
+#spec-panel .spec-pole select
+{ padding-left: 4px; }
+#spec-panel .spec-pole input[type="text"]:focus, #spec-panel .spec-pole select:focus
+{ border-color: #261a65; outline: none; }
+.spec-pole-poznamka
+{ grid-column: 1 / -1; }
+
+/* DOPLNKY */
+.spec-radek-doplnky
+{ display: block; margin-top: 14px; padding-top: 14px; border-top: 1px solid #eeeeee; }
+.spec-doplnky-nadpis
+{ display: block; margin-bottom: 9px; font-family: 'Open Sans', sans-serif; font-size: 0.76em; font-weight: 600; color: #464646; text-transform: uppercase; letter-spacing: 0.03em; }
+.spec-doplnek
+{ display: inline-block; margin: 0px 20px 7px 0px; font-family: 'Open Sans', sans-serif; font-size: 0.86em; font-weight: 400; color: #000000; line-height: 1.20em; cursor: pointer; }
+#spec-panel .spec-doplnek input[type="checkbox"]
+{ width: 16px; height: 16px; float: none; margin: 0px 7px 0px 0px; padding: 0px; vertical-align: -3px; background: none; border: none; }
+
+/* PRIDANI DALSI POZICE */
+#spec-pridat-bg
+{ width: 100%; float: left; margin-top: 14px; }
+#spec-pridat
+{ display: inline-block; padding: 10px 20px; background: #ffffff; border: 1px solid #261a65; font-family: 'Open Sans', sans-serif; font-size: 0.86em; font-weight: 600; color: #261a65; text-decoration: none;
+  -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+#spec-pridat:hover
+{ background: #261a65; color: #ffffff; }
+#spec-pridat-info
+{ display: inline-block; margin-left: 14px; font-family: 'Open Sans', sans-serif; font-size: 0.80em; font-weight: 400; color: #464646; }
+
+/* MISTO MONTAZE A POZNAMKA POD TABULKOU */
+.spec-pole-misto
+{ width: 100%; float: left; box-sizing: border-box; margin-top: 16px; padding: 15px 18px; background: #ffffff; border-left: 4px solid #261a65; }
+#spec-panel .spec-pole-misto input[type="text"]
+{ max-width: 480px; }
+.spec-pozn p
+{ width: 100%; float: left; margin: 14px 0px 0px 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 0.80em; font-weight: 400; color: #6a6a6a; text-align: left; line-height: 1.40em; background: none; }
 
 /** POTVRZENI OBJEDNAVKY **/
 #potvrzeni-send-panel
@@ -815,8 +889,18 @@ a.jqTransformChecked
 { width: 100%; height: 100%; object-fit: cover; }
 .review-btn 
 { display: inline-block; padding: 12px 20px;  font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 600; background-color: #007bff; color: #ffffff; text-decoration: none; border-radius: 8px; transition: 0.3s; }
-.review-btn:hover 
+.review-btn:hover
 { background-color: #0056b3; }
+
+/** INFO PANEL POBOCKY **/
+.pobocka-info-panel
+{ width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; padding: 20px 25px; box-sizing: border-box; background: #def2fb; border-left: 5px solid #261a65; }
+.pobocka-info-panel p
+{ width: 100%; float: left; margin: 0px; padding: 0px; font-family: 'Open Sans', sans-serif; text-align: left; text-transform: none; text-decoration: none; letter-spacing: 0.02em; line-height: 1.40em; background: none; }
+.pobocka-info-panel p.pobocka-info-hlavni
+{ font-size: 1.0em; font-weight: 700; color: #261a65; }
+.pobocka-info-panel p.pobocka-info-vedlejsi
+{ margin-top: 8px; font-size: 0.88em; font-weight: 400; color: #464646; }
 
 
 
