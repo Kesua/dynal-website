@@ -250,3 +250,41 @@
 { width: 100%; height: auto; float: left; margin-left: 0px; margin-top: 10px; margin-bottom: 10px; background: none; }
 
 }
+
+/*********************************************************************************************************************************************************************************************************************************************************************/
+/**************************************************************** POPTAVKA - SPECIFIKACE POZIC ***********************************************************************************************************************************************************************/
+@media only screen and (max-width: 1100px)
+{
+   .spec-radek
+   { grid-template-columns: 1fr 1fr 1fr; }
+   .spec-pole-osazeni
+   { grid-column: 1 / -1; }
+}
+
+@media only screen and (max-width: 750px)
+{
+   /** POPTAVKA - jednosloupcovy formular **/
+   .form-box-half
+   { width: 100%; }
+
+   .spec-radek
+   { grid-template-columns: 1fr 1fr; }
+   .spec-pole-typ, .spec-pole-barva, .spec-pole-osazeni
+   { grid-column: 1 / -1; }
+   #form-odeslat .btn-send
+   { width: 100%; min-width: 0px; padding-left: 0px; padding-right: 0px; }
+}
+
+@media only screen and (max-width: 500px)
+{
+   .spec-radek
+   { grid-template-columns: 1fr; }
+   .spec-pozice
+   { padding-left: 14px; padding-right: 14px; }
+   .spec-doplnek
+   { display: block; margin-right: 0px; margin-bottom: 10px; }
+   #spec-pridat
+   { display: block; text-align: center; }
+   #spec-pridat-info
+   { display: block; margin-left: 0px; margin-top: 8px; }
+}
