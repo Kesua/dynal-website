@@ -83,6 +83,25 @@ function poptavkaPolozky(array $post)
 }
 
 /**
+ * Zakóduje tělo e-mailu tak, aby prošlo SMTP.
+ *
+ * Tady byla chyba, kvůli které přestaly docházet poptávky se vyplněnou
+ * specifikací: HTML se skládá do jednoho dlouhého řádku, ale SMTP
+ * (RFC 5321) povoluje nejvýše 998 znaků na řádek. Bez tabulky pozic měla
+ * zpráva ~690 znaků a prošla, s tabulkou přes 3 500 a poštovní server ji
+ * zahodil. Quoted-printable láme řádky na 76 znaků, takže na délce ani
+ * obsahu už nezáleží. Zároveň se tím korektně přenesou české znaky, které
+ * dosud šly jako 8bit bez deklarovaného kódování.
+ *
+ * Kdo tuhle funkci použije, MUSÍ do hlaviček přidat:
+ *     Content-Transfer-Encoding: quoted-printable
+ */
+function poptavkaTeloProSmtp($html)
+{
+    return quoted_printable_encode($html);
+}
+
+/**
  * Přeloží kód z výběru produktu na čitelný popis.
  * Musí odpovídat hodnotám v selectu "vyber-produkt" v poptavka.php.
  */

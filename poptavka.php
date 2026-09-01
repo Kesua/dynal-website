@@ -181,10 +181,15 @@ LOG;
 			$headers .= "Reply-To: ". strip_tags($_POST['req-email']) . "\r\n";
 			$headers .= "MIME-Version: 1.0\r\n";
 			$headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+			// Musi jit ruku v ruce s poptavkaTeloProSmtp() nize - bez zalomeni
+			// radku SMTP zpravu s tabulkou pozic zahodi (limit 998 znaku/radek).
+			$headers .= "Content-Transfer-Encoding: quoted-printable\r\n";
+
+			$telo = poptavkaTeloProSmtp($message);
 
             // Zavinac je tu zamerne: pripadne varovani z mail() by se vypsalo
             // do vystupu a znemoznilo by presmerovani nize. Rozhoduje navratova hodnota.
-            $odeslano = @mail($to, $subject, $message, $headers);
+            $odeslano = @mail($to, $subject, $telo, $headers);
 
             if ($odeslano) {
               header('Location: /odeslano.php');
